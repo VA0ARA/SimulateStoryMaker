@@ -48,8 +48,9 @@ Export/Upload Panel: Buttons to convert animations to JSON and send them to the 
 Visual Placeholder
 
  UI screenshot:
-[Business](DataStructure/6.jpg)
-Film-link:
+[DatabStructure Diagram](DataStructure/6.jpg)
+
+##Film-link:
 [https://youtube.com/playlist?list=PLHKqhcgMIjlzsXpVFFV5wWazAfdbNrbtF&si=XFUialVfspwNSfL6]
 
 
