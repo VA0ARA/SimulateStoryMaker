@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BBF5436B-A7F1-4047-A4FE-FCADC1442209}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>StoryMaker</RootNamespace>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Enterwell.Clients.Wpf.Notifications, Version=1.4.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Enterwell.Clients.Wpf.Notifications.1.4.2\lib\net451\Enterwell.Clients.Wpf.Notifications.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignColors, Version=1.2.0.325, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialDesignColors.1.2.0\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=2.6.0.325, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialDesignThemes.2.6.0\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="SemanticVersion, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\SemanticVersion.2.0.0\lib\net462\SemanticVersion.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression.FileSystem">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Unity.Abstractions, Version=5.11.7.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>packages\Unity.5.11.10\lib\net47\Unity.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Container, Version=5.11.11.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>packages\Unity.5.11.10\lib\net47\Unity.Container.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WindowsFormsIntegration">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Compile Include="Core\Bounds\Bounds.cs" />
+    <Compile Include="Core\Bounds\ElementBoundary.cs" />
+    <Compile Include="Core\Bounds\IBoundary.cs" />
+    <Compile Include="Core\Drag_Drop\IDrag.cs" />
+    <Compile Include="Core\IntPoint.cs" />
+    <Compile Include="Core\Save_Load\AnimationVersion1.cs" />
+    <Compile Include="Core\Save_Load\AssetExport.cs" />
+    <Compile Include="Core\Save_Load\AssetReplacementInfo.cs" />
+    <Compile Include="Core\Save_Load\ExportProject.cs" />
+    <Compile Include="Core\Save_Load\IAssetExport.cs" />
+    <Compile Include="Core\Save_Load\IImportExportScene.cs" />
+    <Compile Include="Core\Save_Load\ImportExportScene.cs" />
+    <Compile Include="Core\Save_Load\ISaveProject.cs" />
+    <Compile Include="Core\Save_Load\SaveProject.cs" />
+    <Compile Include="Core\Save_Load\SoftwareData.cs" />
+    <Compile Include="Core\Selection\ChooseObjectByList.cs" />
+    <Compile Include="Core\Selection\IObjectChooser.cs" />
+    <Compile Include="DataStructure\Actions\ChangeImageDS.cs" />
+    <Compile Include="DataStructure\Actions\ExitSceneDS.cs" />
+    <Compile Include="DataStructure\Actions\PlayAnimationActionDS.cs" />
+    <Compile Include="DataStructure\Actions\PlaySoundDS.cs" />
+    <Compile Include="DataStructure\Actions\SetVariableDS.cs" />
+    <Compile Include="DataStructure\Actions\SetVisibilityDS.cs" />
+    <Compile Include="DataStructure\AnimatorControllerDs.cs" />
+    <Compile Include="DataStructure\AnimatorDS.cs" />
+    <Compile Include="DataStructure\Assets\IAsset.cs" />
+    <Compile Include="DataStructure\Assets\ImageAsset.cs" />
+    <Compile Include="DataStructure\Assets\SoundAsset.cs" />
+    <Compile Include="DataStructure\Assets\SpritesheetAsset.cs" />
+    <Compile Include="DataStructure\CameraDS.cs" />
+    <Compile Include="DataStructure\ChannelDS.cs" />
+    <Compile Include="DataStructure\ClipDS.cs" />
+    <Compile Include="DataStructure\CompareComponent.cs" />
+    <Compile Include="DataStructure\DragInteractivityDS.cs" />
+    <Compile Include="DataStructure\DropCondition.cs" />
+    <Compile Include="DataStructure\ElementDS.cs" />
+    <Compile Include="DataStructure\Enums\ConditionType.cs" />
+    <Compile Include="DataStructure\Enums\TriggerType.cs" />
+    <Compile Include="DataStructure\IComponent.cs" />
+    <Compile Include="DataStructure\ImageDS.cs" />
+    <Compile Include="DataStructure\InteractivityDS.cs" />
+    <Compile Include="DataStructure\KeyValueDS.cs" />
+    <Compile Include="DataStructure\ProjectDS.cs" />
+    <Compile Include="DataStructure\SceneDS.cs" />
+    <Compile Include="DataStructure\SceneGate\GateType.cs" />
+    <Compile Include="DataStructure\SceneGate\ISceneNode.cs" />
+    <Compile Include="DataStructure\SceneGate\SceneGateDS.cs" />
+    <Compile Include="DataStructure\SceneNavigationGraph\Graph.cs" />
+    <Compile Include="DataStructure\SceneNavigationGraph\GraphConverter.cs" />
+    <Compile Include="DataStructure\SoundDS.cs" />
+    <Compile Include="DataStructure\TapInteractivityDS.cs" />
+    <Compile Include="DataStructure\TimerInteractivityDS.cs" />
+    <Compile Include="DataStructure\TransformDS.cs" />
+    <Compile Include="DataStructure\VariableDS.cs" />
+    <Compile Include="DataStructure\Vector2.cs" />
+    <Compile Include="Graph\DefaultGraph.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DefaultGraph.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Graph\DefaultGraphBuilder.cs" />
+    <Compile Include="Injectors\ActionsProviderInjector.cs" />
+    <Compile Include="Injectors\ConverterInjector.cs" />
+    <Compile Include="Injectors\IInjector.cs" />
+    <Compile Include="Injectors\MainInjector.cs" />
+    <Compile Include="Injectors\SaveLoadInjector.cs" />
+    <Compile Include="Inspector\Models\BaseProperty.cs" />
+    <Compile Include="Inspector\Models\IProperty.cs" />
+    <Compile Include="Inspector\Models\IntProperty.cs" />
+    <Compile Include="Inspector\HideInInspector.cs" />
+    <Compile Include="Inspector\InspectorView.xaml.cs">
+      <DependentUpon>InspectorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Inspector\InspectorViewModel.cs" />
+    <Compile Include="Inspector\Models\IPropertyFactory.cs" />
+    <Compile Include="Inspector\Models\PropertyFactory.cs" />
+    <Compile Include="Inspector\test.cs" />
+    <Compile Include="Inspector\TestWin.xaml.cs">
+      <DependentUpon>TestWin.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Inspector\Views\IntField.xaml.cs">
+      <DependentUpon>IntField.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Messages\ErrorMessage.cs" />
+    <Compile Include="Messages\IMessage.cs" />
+    <Compile Include="Messages\InfoMessage.cs" />
+    <Compile Include="Models\Actions\PlayAnimationAction.cs" />
+    <Compile Include="Models\AssetModels\PrefabAsset.cs" />
+    <Compile Include="Models\Builder\ActionBuilder.cs" />
+    <Compile Include="Models\Builder\CameraBuilder.cs" />
+    <Compile Include="Models\Builder\CharacterBuilder.cs" />
+    <Compile Include="Models\Builder\IActionBuilder.cs" />
+    <Compile Include="Models\Builder\IActionProvider.cs" />
+    <Compile Include="Models\Builder\ProvideActionFromList.cs" />
+    <Compile Include="Models\Components\Animator.cs" />
+    <Compile Include="Models\AssetModels\DrawableAssetModel.cs" />
+    <Compile Include="Models\AssetModels\SoundAssetModel.cs" />
+    <Compile Include="GameEngine\EngineState.cs" />
+    <Compile Include="GameEngine\PortableLoopEngine.cs" />
+    <Compile Include="Models\Actions\ChangeImageAction.cs" />
+    <Compile Include="Api\ApiHelper.cs" />
+    <Compile Include="Api\RequestHandler.cs" />
+    <Compile Include="Models\Components\Interactivities\DropCondition.cs" />
+    <Compile Include="Models\Components\Interactivities\Timer.cs" />
+    <Compile Include="Models\Interfaces\IChannel.cs" />
+    <Compile Include="Models\Editor\PlayMode.cs" />
+    <Compile Include="Models\Interfaces\ICloneable.cs" />
+    <Compile Include="Models\Interfaces\IOrder.cs" />
+    <Compile Include="Models\Interfaces\IScenePlayer.cs" />
+    <Compile Include="Models\Actions\IStop.cs" />
+    <Compile Include="Models\Actions\PlaySoundAction.cs" />
+    <Compile Include="Models\Actions\ExitSceneAction.cs" />
+    <Compile Include="Models\Actions\SetVariableAction.cs" />
+    <Compile Include="Models\Actions\SetVisibilityAction.cs" />
+    <Compile Include="Models\AssetModels\AssetModel.cs" />
+    <Compile Include="Models\AssetModels\SpriteSheetAssetModel.cs" />
+    <Compile Include="Models\Components\Camera.cs" />
+    <Compile Include="Models\Components\Interactivities\CompareValues.cs" />
+    <Compile Include="Models\Components\Interactivities\Drag.cs" />
+    <Compile Include="Models\Components\Interactivities\Tap.cs" />
+    <Compile Include="Models\Input\Enum\MouseEventType.cs" />
+    <Compile Include="Models\Input\MouseEvent.cs" />
+    <Compile Include="Models\Components\InterActivity.cs" />
+    <Compile Include="Models\Components\Component.cs" />
+    <Compile Include="Models\Interfaces\IAction.cs" />
+    <Compile Include="Models\Interfaces\IAssetModelCollector.cs" />
+    <Compile Include="Models\Interfaces\IComponentController.cs" />
+    <Compile Include="Models\Input\Interface\IMouseEvent.cs" />
+    <Compile Include="Models\Input\Interface\IMouseDown.cs" />
+    <Compile Include="Models\Input\Interface\IMouseMove.cs" />
+    <Compile Include="Models\Input\Interface\IMouseUp.cs" />
+    <Compile Include="Models\Interfaces\IDrawable.cs" />
+    <Compile Include="Models\Interfaces\IHierarchyNode.cs" />
+    <Compile Include="Models\Interfaces\IViewport.cs" />
+    <Compile Include="Models\Components\AudioSource.cs" />
+    <Compile Include="Models\Software\CurrentProject.cs" />
+    <Compile Include="Models\Software\ISetting.cs" />
+    <Compile Include="Models\Software\SaveSetting.cs" />
+    <Compile Include="Models\Software\Setting.cs" />
+    <Compile Include="Models\Software\SoftwareModel.cs" />
+    <Compile Include="Models\Utility\TransformUtility.cs" />
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="TextMap\ActionTitleProvider.cs" />
+    <Compile Include="TextMap\InteractivityTitleProvider.cs" />
+    <Compile Include="TextMap\ITitleProvider.cs" />
+    <Compile Include="Timeline\Attribute\NonRecordable.cs" />
+    <Compile Include="Timeline\Helper\IReadOnlyMap.cs" />
+    <Compile Include="Timeline\Helper\KeyChangedArg.cs" />
+    <Compile Include="Timeline\Helper\Map.cs" />
+    <Compile Include="Timeline\Model\AnimatorController.cs" />
+    <Compile Include="Timeline\Model\Channel.cs" />
+    <Compile Include="Timeline\Model\ChannelAddress.cs" />
+    <Compile Include="Timeline\Model\Clip.cs" />
+    <Compile Include="Timeline\Model\Interfaces\IKeyFinder.cs" />
+    <Compile Include="Timeline\Model\Interfaces\IRecordStatus.cs" />
+    <Compile Include="Timeline\Model\Interfaces\IUpdatable.cs" />
+    <Compile Include="Timeline\Model\Interfaces\IValueAtTime.cs" />
+    <Compile Include="Timeline\Model\KeyValues.cs" />
+    <Compile Include="Timeline\Model\KeyValue.cs" />
+    <Compile Include="Timeline\Model\TimelineModel.cs" />
+    <Compile Include="VersionConverter\AssetConverter.cs" />
+    <Compile Include="VersionConverter\IAssetConverter.cs" />
+    <Compile Include="VersionConverter\IVersionProvider.cs" />
+    <Compile Include="VersionConverter\JSONProjectProvider.cs" />
+    <Compile Include="VersionConverter\IProjectProvider.cs" />
+    <Compile Include="VersionConverter\ProjectProvider.cs" />
+    <Compile Include="VersionConverter\ProjectProviderFactory.cs" />
+    <Compile Include="VersionConverter\VersionProvider.cs" />
+    <Compile Include="GameEngine\Engine.cs" />
+    <Compile Include="GameEngine\Time.cs" />
+    <Compile Include="Models\Api\StaticPagesData.cs" />
+    <Compile Include="Models\Api\StaticPagesResponse.cs" />
+    <Compile Include="Models\Components\ImageRenderer.cs" />
+    <Compile Include="Models\Components\Transform.cs" />
+    <Compile Include="Timeline\Class\HorizontalGridLine.cs" />
+    <Compile Include="Timeline\Class\TimelineKey.cs" />
+    <Compile Include="Timeline\Class\ChannelListBox.cs" />
+    <Compile Include="Timeline\Helper\DelegateCommand.cs" />
+    <Compile Include="Timeline\Model\RecordStatus.cs" />
+    <Compile Include="Timeline\User Controllers\Timeline.xaml.cs">
+      <DependentUpon>Timeline.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Timeline\ViewModel\TimelineViewModel.cs" />
+    <Compile Include="User Controllers\StoryMakerPanel.xaml.cs">
+      <DependentUpon>StoryMakerPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="User Controllers\TermConditionPanel.xaml.cs">
+      <DependentUpon>TermConditionPanel.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Inspector\InspectorView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Inspector\TestWin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Inspector\Views\IntField.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Styles\Styles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Timeline\User Controllers\Timeline.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="User Controllers\StoryMakerPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="User Controllers\TermConditionPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Graph\DefaultGraph.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DefaultGraph.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Info.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+    </None>
+    <Resource Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="small_logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Backend\Content has been removed due to a NDA\" />
+    <Folder Include="Collections\Content has been removed due to a NDA\" />
+    <Folder Include="Command\" />
+    <Folder Include="Converters\" />
+    <Folder Include="DataStructure\Graph\" />
+    <Folder Include="EditorCommandBuilder\Content has been removed due to a NDA\" />
+    <Folder Include="Editor\Utility\Content has been removed due to a NDA\" />
+    <Folder Include="Graph\Content has been removed due to a NDA\" />
+    <Folder Include="Helpers\Content has been removed due to a NDA\" />
+    <Folder Include="Models\Utility\Content has been removed due to a Non\" />
+    <Folder Include="ModelToDataStructConverter\Content has been removed due to a NDA\" />
+    <Folder Include="Resources\Content has been removed due to a Non\" />
+    <Folder Include="ViewModels\Content has been removed due to a NDA\" />
+    <Folder Include="Views\Content has been removed due to a NDA\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="DataStructure\6.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

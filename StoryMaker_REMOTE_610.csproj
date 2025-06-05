@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BBF5436B-A7F1-4047-A4FE-FCADC1442209}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>StoryMaker</RootNamespace>
+    <AssemblyName>CSharpAssembly</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MaterialDesignColors, Version=1.2.0.325, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialDesignColors.1.2.0\lib\net45\MaterialDesignColors.dll</HintPath>
+    </Reference>
+    <Reference Include="MaterialDesignThemes.Wpf, Version=2.6.0.325, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\MaterialDesignThemes.2.6.0\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio, Version=1.9.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.1.9.0\lib\net35\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Vorbis, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.Vorbis.1.0.0.0\lib\net35\NAudio.Vorbis.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Notifications.Wpf, Version=0.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Notifications.Wpf.0.1.1\lib\net45\Notifications.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="NVorbis, Version=0.8.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\NVorbis.0.8.6\lib\net35\NVorbis.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.7.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.AspNet.WebApi.Client.5.2.7\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Api\ApiHelper.cs" />
+    <Compile Include="Api\RequestHandler.cs" />
+    <Compile Include="Backend\ActionDataStructure.cs" />
+    <Compile Include="Backend\Asset.cs" />
+    <Compile Include="Backend\AssetsInfo.cs" />
+    <Compile Include="Backend\ElementDataStructure.cs" />
+    <Compile Include="Backend\InterAcitveDataStructure.cs" />
+    <Compile Include="Backend\PackageDataStructure.cs" />
+    <Compile Include="Backend\Paths.cs" />
+    <Compile Include="Backend\StoryDataStructure.cs" />
+    <Compile Include="Backend\Version 1\RecordDataStructure.cs" />
+    <Compile Include="Backend\SpriteSheetDataStructure.cs" />
+    <Compile Include="Backend\Version 1\StoryAssetDataStructure.cs" />
+    <Compile Include="Backend\Version 1\StoryDataStructure.cs" />
+    <Compile Include="Converters\ElementModelToTimelineChannelsConverter.cs" />
+    <Compile Include="Helpers\ImageSlicer.cs" />
+    <Compile Include="Models\ChannelListModel.cs" />
+    <Compile Include="Models\SoundChannelModel.cs" />
+    <Compile Include="Models\SoundModel.cs" />
+    <Compile Include="PersonalUiElement\PersonalCheckBox.cs" />
+    <Compile Include="PersonalUiElement\PersonalTextBox.cs" />
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="ViewModels\InterActivityViewModel.cs" />
+    <Compile Include="Views\Components\ImageComponent.xaml.cs">
+      <DependentUpon>ImageComponent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\InterActivity.xaml.cs">
+      <DependentUpon>InterActivity.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\PsvComponent.xaml.cs">
+      <DependentUpon>PsvComponent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Converters\BooleanInverter.cs" />
+    <Compile Include="Converters\BoolToVisibilityConverter.cs" />
+    <Compile Include="Converters\MyImageConverter.cs" />
+    <Compile Include="Converters\ShortFileNameConverter.cs" />
+    <Compile Include="GameEngine\GameBehaviour.cs" />
+    <Compile Include="GameEngine\Engine.cs" />
+    <Compile Include="GameEngine\IBehaviour.cs" />
+    <Compile Include="GameEngine\Time.cs" />
+    <Compile Include="Helpers\CommandDelegate.cs" />
+    <Compile Include="Helpers\FastCommandDelegate.cs" />
+    <Compile Include="Helpers\KeyFramehelper.cs" />
+    <Compile Include="Helpers\Utils.cs" />
+    <Compile Include="Models\Api\StaticPagesData.cs" />
+    <Compile Include="Models\Api\StaticPagesResponse.cs" />
+    <Compile Include="Models\AssetCollectionModel.cs" />
+    <Compile Include="Models\AssetManagementModel.cs" />
+    <Compile Include="Models\ElementModel.cs" />
+    <Compile Include="Models\ImageChannelModel.cs" />
+    <Compile Include="Models\IBehaviour.cs" />
+    <Compile Include="Models\PackageCollectionModel.cs" />
+    <Compile Include="Models\PackageModel.cs" />
+    <Compile Include="Models\PositionModel.cs" />
+    <Compile Include="Models\PSVModel.cs" />
+    <Compile Include="Models\RecorderModel.cs" />
+    <Compile Include="Models\StoryModel.cs" />
+    <Compile Include="SpriteSheet\Dialogs\InputSpriteSheetDialog.xaml.cs">
+      <DependentUpon>InputSpriteSheetDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SpriteSheet\Model\SpriteSheet.cs" />
+    <Compile Include="SpriteSheet\ViewModel\SpriteSheetViewModel.cs" />
+    <Compile Include="SpriteSheet\Views\SpriteSheetViewer.xaml.cs">
+      <DependentUpon>SpriteSheetViewer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="StartWindow.xaml.cs">
+      <DependentUpon>StartWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Timeline\Class\HorizontalGridLine.cs" />
+    <Compile Include="Timeline\Class\TimelineKey.cs" />
+    <Compile Include="Timeline\Class\ChannelListBox.cs" />
+    <Compile Include="Timeline\Helper\DelegateCommand.cs" />
+    <Compile Include="Timeline\Model\Channel.cs" />
+    <Compile Include="Timeline\Model\Channels.cs" />
+    <Compile Include="Timeline\Model\KeyValue.cs" />
+    <Compile Include="Timeline\Model\KeyValues.cs" />
+    <Compile Include="Timeline\Model\Status.cs" />
+    <Compile Include="Timeline\Model\TimeLine.cs" />
+    <Compile Include="Timeline\User Controllers\Timeline.xaml.cs">
+      <DependentUpon>Timeline.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Timeline\ViewModel\TimelineViewModel.cs" />
+    <Compile Include="User Controllers\StoryMakerPanel.xaml.cs">
+      <DependentUpon>StoryMakerPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="User Controllers\TermConditionPanel.xaml.cs">
+      <DependentUpon>TermConditionPanel.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModels\AssetCollectionViewModel.cs" />
+    <Compile Include="ViewModels\PackageCollectionViewModel.cs" />
+    <Compile Include="ViewModels\PackageManagementViewModel.cs" />
+    <Compile Include="ViewModels\RecorderViewModel.cs" />
+    <Compile Include="Views\AssetManagement.xaml.cs">
+      <DependentUpon>AssetManagement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\SoundComponent.xaml.cs">
+      <DependentUpon>SoundComponent.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Create_EditStory.xaml.cs">
+      <DependentUpon>Create_EditStory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Hierarchy.xaml.cs">
+      <DependentUpon>Hierarchy.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Inspector.xaml.cs">
+      <DependentUpon>Inspector.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\LoginWindow.xaml.cs">
+      <DependentUpon>LoginWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PackageAssets.xaml.cs">
+      <DependentUpon>PackageAssets.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PackageCollection.xaml.cs">
+      <DependentUpon>PackageCollection.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PackageManagement.xaml.cs">
+      <DependentUpon>PackageManagement.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\StartMainWindow.xaml.cs">
+      <DependentUpon>StartMainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ViewPort.xaml.cs">
+      <DependentUpon>ViewPort.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Resources\StringContainer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Components\ImageComponent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Components\InterActivity.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Components\PsvComponent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SpriteSheet\Views\SpriteSheetViewer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TestWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TestWindow.xaml.cs">
+      <DependentUpon>TestWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="SpriteSheet\Dialogs\InputSpriteSheetDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="StartWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\Styles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Timeline\User Controllers\Timeline.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="User Controllers\StoryMakerPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="User Controllers\TermConditionPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\AssetManagement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Components\SoundComponent.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Create_EditStory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Hierarchy.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Inspector.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\LoginWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PackageAssets.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\PackageCollection.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\PackageManagement.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\StartMainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ViewPort.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Resource Include="Resources\Fonts\Shabnam Bold.ttf" />
+    <Resource Include="Resources\Fonts\Shabnam.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\add_btn.png" />
+    <Resource Include="Resources\Icons\button_background.png" />
+    <Resource Include="Resources\Icons\check.png" />
+    <Resource Include="Resources\Icons\close_btn.png" />
+    <Resource Include="Resources\Icons\create_package.png" />
+    <Resource Include="Resources\Icons\input_line.png" />
+    <Resource Include="Resources\Icons\main_background.png" />
+    <Resource Include="Resources\Icons\small_logo.png" />
+    <Resource Include="Resources\Icons\uncheck.png" />
+    <Resource Include="Resources\Icons\upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Temp\avatar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\None.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\Icons\welcome.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

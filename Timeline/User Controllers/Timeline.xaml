@@ -1,0 +1,797 @@
+﻿<UserControl xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             x:Class="Timeline.User_Controllers.TimeLine"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:tlc="clr-namespace:Timeline.Class"
+             xmlns:tlvm="clr-namespace:Timeline.ViewModel"
+             xmlns:userControllers="clr-namespace:Timeline.User_Controllers"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:customView="clr-namespace:StoryMaker.Views.CustomView"
+             xmlns:converters="clr-namespace:StoryMaker.Converters"
+             x:Name="UserControl"
+             mc:Ignorable="d"
+             d:DesignHeight="480"
+             d:DesignWidth="1920">
+
+    <UserControl.Resources>
+        <tlvm:TimelineViewModel x:Key="ViewModel" />
+        <tlvm:ObjectAddressToMargin x:Key="ObjectAddressToMarginConverter" />
+        <tlvm:RecordToggleConverter x:Key="RecordToggleConverter" />
+        <tlvm:FrameToMarginConverter x:Key="FrameToMarginConverter" />
+        <tlvm:KeyMarginConverter x:Key="KeyMarginConverter" />
+        <tlvm:NullToBooleanConverter x:Key="NullToBooleanConverter" />
+        <converters:NullToVisibilityConverter x:Key="NullToVisibilityConverter" />
+        <tlvm:HorizontalGridLineViewportConverter x:Key="HorizontalGridLineViewportConverter" />
+
+        <CollectionViewSource Source="{Binding TimelineModel.RecordingClip.Channels, ElementName=UserControl}"
+                              x:Key="ChannelView">
+            <CollectionViewSource.GroupDescriptions>
+                <PropertyGroupDescription PropertyName="ObjectAddress" />
+            </CollectionViewSource.GroupDescriptions>
+        </CollectionViewSource>
+
+    </UserControl.Resources>
+
+    <UserControl.CommandBindings>
+        <CommandBinding Command="Copy" Executed="CopyCommand" />
+        <CommandBinding Command="Paste" Executed="PasteCommand" />
+        <CommandBinding Command="Play" Executed="Play" />
+        <CommandBinding Command="userControllers:Command.NextKey" Executed="FindNextKey" />
+        <CommandBinding Command="userControllers:Command.PreviousKey" Executed="FindPreviousKey" />
+        <CommandBinding Command="userControllers:Command.CaptureKey" Executed="CaptureCurrentFrame" />
+        <CommandBinding Command="New" Executed="NewClip_OnExecuted" />
+        <CommandBinding Command="Delete" Executed="TimelineKeyDelete_OnClick" />
+    </UserControl.CommandBindings>
+
+    <UserControl.InputBindings>
+        <KeyBinding Key="Space" Command="Play" />
+        <KeyBinding Key="C" Modifiers="Control" Command="Copy" />
+        <KeyBinding Key="V" Modifiers="Control" Command="Paste" />
+        <KeyBinding Key="Delete" Command="Delete" />
+    </UserControl.InputBindings>
+
+    <Grid x:Name="MainPanel" Background="{DynamicResource MainColor-Surface}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0"
+                BorderBrush="DimGray"
+                BorderThickness="0,0,1,0">
+            <DockPanel>
+                <DockPanel DockPanel.Dock="Top"
+                           Height="30">
+                    <ToggleButton IsChecked="{Binding TimelineModel.Preview ,ElementName=UserControl}">
+                        <ToggleButton.Style>
+                            <Style TargetType="{x:Type ToggleButton}">
+                                <Style.Triggers>
+                                    <Trigger Property="IsChecked" Value="True">
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate>
+                                                    <Border Margin="2,5"
+                                                            BorderThickness="1"
+                                                            BorderBrush="Gray"
+                                                            Background="DarkGray">
+                                                        <TextBlock Text="Preview"
+                                                                   Margin="2,0"
+                                                                   Foreground="{StaticResource MainColor-Separator}"
+                                                                   TextAlignment="Center"
+                                                                   HorizontalAlignment="Center"
+                                                                   VerticalAlignment="Center" />
+                                                    </Border>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                    <Trigger Property="IsChecked" Value="False">
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate>
+                                                    <Border Margin="2,5"
+                                                            BorderThickness="1"
+                                                            BorderBrush="Gray"
+                                                            Background="Transparent">
+                                                        <TextBlock Text="Preview"
+                                                                   Margin="2,0"
+                                                                   Foreground="{StaticResource MainColor-Detail}"
+                                                                   TextAlignment="Center"
+                                                                   HorizontalAlignment="Center"
+                                                                   VerticalAlignment="Center" />
+                                                    </Border>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ToggleButton.Style>
+                        <TextBlock Text="Preview" />
+                    </ToggleButton>
+                    <ToggleButton DataContext="{Binding ElementName=UserControl}"
+                                  Foreground="#a72693"
+                                  x:Name="TglRecord"
+                                  IsChecked="{Binding TimelineModel.RecordStatus, Converter={StaticResource RecordToggleConverter}, Mode=TwoWay}"
+                                  Width="30"
+                                  Height="30"
+                                  Margin="5,0"
+                                  Background="Transparent"
+                                  BorderBrush="Transparent"
+                                  Checked="Tgl_Record_Checked"
+                                  Unchecked="Tgl_Record_Checked">
+                        <ToggleButton.Style>
+                            <Style TargetType="{x:Type ToggleButton}">
+                                <Setter Property="Content">
+                                    <Setter.Value>
+                                        <Ellipse Width="16" Height="16" Fill="#a72693" />
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <Trigger Property="IsChecked" Value="True">
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="{x:Type ToggleButton}">
+                                                    <BulletDecorator Background="Transparent">
+                                                        <BulletDecorator.Bullet>
+                                                            <Grid Width="{TemplateBinding Width}"
+                                                                  Height="{TemplateBinding Height}">
+                                                                <Ellipse Width="16"
+                                                                         Height="16"
+                                                                         Fill="{TemplateBinding Foreground}" />
+                                                                <Ellipse x:Name="CheckMark"
+                                                                         Width="22"
+                                                                         Height="22"
+                                                                         Fill="{TemplateBinding Foreground}"
+                                                                         Opacity="0.5" />
+                                                            </Grid>
+                                                        </BulletDecorator.Bullet>
+                                                        <VisualStateManager.VisualStateGroups>
+                                                            <VisualStateGroup x:Name="CommonStates">
+                                                                <VisualState x:Name="Normal" />
+                                                            </VisualStateGroup>
+                                                            <VisualStateGroup x:Name="CheckStates">
+                                                                <VisualState x:Name="Checked">
+                                                                    <Storyboard>
+                                                                        <ObjectAnimationUsingKeyFrames
+                                                                            Storyboard.TargetName="CheckMark"
+                                                                            Storyboard.TargetProperty="(UIElement.Visibility)">
+                                                                            <DiscreteObjectKeyFrame KeyTime="0"
+                                                                                                    Value="{x:Static Visibility.Visible}" />
+                                                                        </ObjectAnimationUsingKeyFrames>
+                                                                    </Storyboard>
+                                                                </VisualState>
+                                                                <VisualState x:Name="Unchecked" />
+                                                                <VisualState x:Name="Indeterminate" />
+                                                            </VisualStateGroup>
+                                                        </VisualStateManager.VisualStateGroups>
+                                                        <ContentPresenter Margin="4,0,0,0"
+                                                                          VerticalAlignment="Center"
+                                                                          HorizontalAlignment="Left"
+                                                                          RecognizesAccessKey="True" />
+                                                    </BulletDecorator>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </ToggleButton.Style>
+                    </ToggleButton>
+                    <Button x:Name="BtnPlay"
+                            Width="20"
+                            HorizontalAlignment="Stretch"
+                            Margin="0,0"
+                            Height="30"
+                            Background="Transparent"
+                            Foreground="Transparent"
+                            BorderBrush="Transparent"
+                            Command="Play">
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}"
+                                   BasedOn="{StaticResource CircleBorderButton}">
+                                <Setter Property="Content">
+                                    <Setter.Value>
+                                        <Polygon Fill="Gray">
+                                            <Polygon.Points>
+                                                <Point X="0" Y="0" />
+                                                <Point X="0" Y="15" />
+                                                <Point X="15" Y="7.5" />
+                                            </Polygon.Points>
+                                        </Polygon>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                    <Button x:Name="BtnPause"
+                            Width="20"
+                            Height="30"
+                            Margin="0,0"
+                            Background="Transparent"
+                            Foreground="Transparent"
+                            BorderBrush="Transparent"
+                            Command="Play"
+                            Visibility="Collapsed">
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}"
+                                   BasedOn="{StaticResource CircleBorderButton}">
+                                <Setter Property="Content">
+                                    <Setter.Value>
+                                        <DockPanel>
+                                            <Polygon DockPanel.Dock="Left"
+                                                     Fill="Gray">
+                                                <Polygon.Points>
+                                                    <Point X="0" Y="0" />
+                                                    <Point X="0" Y="15" />
+                                                    <Point X="6" Y="15" />
+                                                    <Point X="6" Y="0" />
+                                                </Polygon.Points>
+                                            </Polygon>
+                                            <Rectangle Width="1" />
+                                            <Polygon DockPanel.Dock="Right"
+                                                     Fill="Gray">
+                                                <Polygon.Points>
+                                                    <Point X="0" Y="0" />
+                                                    <Point X="0" Y="15" />
+                                                    <Point X="6" Y="15" />
+                                                    <Point X="6" Y="0" />
+                                                </Polygon.Points>
+                                            </Polygon>
+                                        </DockPanel>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                    <TextBox x:Name="TbFrame"
+                             DockPanel.Dock="Right"
+                             DataContext="{StaticResource ViewModel}"
+                             Text="{Binding TimelineModel.CurrentFrame, StringFormat={}{0:0} , Mode=TwoWay, ElementName=UserControl, UpdateSourceTrigger=PropertyChanged}"
+                             TextChanged="NumberValidationTextBox"
+                             Width="60"
+                             MaxLines="1"
+                             HorizontalContentAlignment="Left"
+                             VerticalContentAlignment="Center"
+                             FontFamily="A Sade"
+                             FontSize="12"
+                             FontWeight="Bold" />
+
+                    <Button x:Name="BtnRemove"
+                            Visibility="Collapsed"
+                            Width="30"
+                            HorizontalAlignment="Right"
+                            DockPanel.Dock="Right">
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Content">
+                                    <Setter.Value>
+                                        <Polygon DockPanel.Dock="Left" Fill="{DynamicResource MainColor-Background}">
+                                            <Polygon.Points>
+                                                <Point X="0" Y="0" />
+                                                <Point X="0" Y="5" />
+                                                <Point X="15" Y="5" />
+                                                <Point X="15" Y="0" />
+                                            </Polygon.Points>
+                                        </Polygon>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                    <Button x:Name="BtnAdd"
+                            Visibility="Collapsed"
+                            Width="30"
+                            HorizontalAlignment="Right"
+                            DockPanel.Dock="Right">
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Content">
+                                    <Setter.Value>
+                                        <Polygon DockPanel.Dock="Left" Fill="{DynamicResource MainColor-Background}">
+                                            <Polygon.Points>
+                                                <Point X="5" Y="0" />
+                                                <Point X="5" Y="5" />
+                                                <Point X="0" Y="5" />
+                                                <Point X="0" Y="10" />
+                                                <Point X="5" Y="10" />
+                                                <Point X="5" Y="15" />
+                                                <Point X="10" Y="15" />
+                                                <Point X="10" Y="10" />
+                                                <Point X="15" Y="10" />
+                                                <Point X="15" Y="5" />
+                                                <Point X="10" Y="5" />
+                                                <Point X="10" Y="0" />
+                                            </Polygon.Points>
+                                        </Polygon>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Button.Style>
+                    </Button>
+                </DockPanel>
+                <DockPanel DockPanel.Dock="Top" MinHeight="20" Height="20">
+                    <DockPanel Dock="Right">
+                        <TextBox x:Name="TbStartFrame"
+                                 DockPanel.Dock="Left"
+                                 Text="{Binding TimelineModel.StartFrame ,ElementName=UserControl, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                                 TextChanged="NumberValidationTextBox"
+                                 Width="26"
+                                 MaxLines="1"
+                                 HorizontalContentAlignment="Center"
+                                 VerticalContentAlignment="Center"
+                                 FontFamily="A Sade"
+                                 FontSize="10"
+                                 FontWeight="Bold" />
+
+                        <Label Content="-"
+                               Margin="2"
+                               Padding="0"
+                               FontSize="10"
+                               DockPanel.Dock="Left"
+                               DataContext="{StaticResource ViewModel}"
+                               HorizontalContentAlignment="Center"
+                               VerticalContentAlignment="Center"
+                               FontFamily="A Sade"
+                               FontWeight="Bold" />
+
+                        <TextBox x:Name="TbEndFrame"
+                                 DockPanel.Dock="Left"
+                                 DataContext="{StaticResource ViewModel}"
+                                 Text="{Binding TimelineModel.EndFrame, Mode=TwoWay, ElementName=UserControl, UpdateSourceTrigger=PropertyChanged}"
+                                 TextChanged="NumberValidationTextBox"
+                                 Width="26"
+                                 Padding="0"
+                                 Margin="0"
+                                 MaxLines="1"
+                                 HorizontalAlignment="Left"
+                                 HorizontalContentAlignment="Center"
+                                 VerticalContentAlignment="Center"
+                                 FontFamily="A Sade"
+                                 FontSize="10"
+                                 FontWeight="Bold" />
+                    </DockPanel>
+                    <ComboBox HorizontalAlignment="Left"
+                              VerticalAlignment="Stretch"
+                              Width="70"
+                              Foreground="AliceBlue"
+                              Padding="0"
+                              Margin="0,0,5,0"
+                              SelectedValue="{Binding TimelineModel.Animator}"
+                              DataContext="{Binding ElementName=UserControl}"
+                              ItemsSource="{Binding TimelineModel.Animators}"
+                              FontSize="10">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <Label Content="{Binding StoryObject.Name}" />
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                    <ComboBox HorizontalAlignment="Left"
+                              VerticalAlignment="Stretch"
+                              Width="80"
+                              Foreground="AliceBlue"
+                              Padding="0"
+                              Margin="0,0,5,0"
+                              SelectedValue="{Binding TimelineModel.RecordingClip}"
+                              DataContext="{Binding ElementName=UserControl}"
+                              ItemsSource="{Binding TimelineModel.Animator.AnimatorController.Clips}"
+                              FontSize="10">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <Label Content="{Binding Name}" />
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                    <Button DockPanel.Dock="Left"
+                            BorderThickness="1"
+                            Margin="2,0"
+                            Width="20"
+                            Height="20"
+                            HorizontalAlignment="Left"
+                            Command="New">
+                        <materialDesign:PackIcon Kind="Add" />
+                    </Button>
+                </DockPanel>
+                <Grid DataContext="{Binding ElementName=UserControl}"
+                      DockPanel.Dock="Top"
+                      Margin="0,0,0,20">
+                    <ScrollViewer x:Name="SvChannelsContainer"
+                                  PreviewMouseWheel="Sv_ChannelsContainer_OnPreviewMouseWheel"
+                                  VerticalScrollBarVisibility="Hidden">
+                        <ItemsControl x:Name="IcChannel"
+                                      ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                                      ItemsSource="{Binding Source={StaticResource ChannelView}}">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <StackPanel Orientation="Vertical" />
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <tlc:ChannelGrid x:Name="Channel"
+                                                     Height="{Binding RowHeight, ElementName=UserControl}"
+                                                     Channel="{Binding }">
+                                        <tlc:ChannelGrid HorizontalAlignment="Left">
+                                            <customView:EditableTextBox
+                                                Text="{Binding Channel, ElementName=Channel}"
+                                                EditText="{Binding Channel.ObjectAddress, ElementName=Channel , Mode=TwoWay}"
+                                                HorizontalContentAlignment="Left"
+                                                VerticalContentAlignment="Center"
+                                                Visibility="Visible"
+                                                IsEditable="True"
+                                                Margin="{Binding Channel.ObjectAddress , ElementName=Channel, Converter={StaticResource ObjectAddressToMarginConverter},ConverterParameter=10}" />
+                                        </tlc:ChannelGrid>
+                                        <StackPanel HorizontalAlignment="Right"
+                                                    Margin="0"
+                                                    Orientation="Horizontal">
+                                            <Button BorderBrush="Transparent"
+                                                    Height="{Binding RowHeight, ElementName=UserControl}"
+                                                    Command="userControllers:Command.PreviousKey"
+                                                    CommandParameter="{Binding Channel , ElementName=Channel}">
+                                                <materialDesign:PackIcon Kind="NavigateBefore" />
+                                            </Button>
+                                            <Button BorderBrush="Transparent"
+                                                    Height="{Binding RowHeight, ElementName=UserControl}"
+                                                    Command="userControllers:Command.CaptureKey"
+                                                    CommandParameter="{Binding Channel , ElementName=Channel}">
+                                                <materialDesign:PackIcon Kind="AddCircle" />
+                                            </Button>
+                                            <Button BorderBrush="Transparent"
+                                                    Height="{Binding RowHeight, ElementName=UserControl}"
+                                                    Command="userControllers:Command.NextKey"
+                                                    CommandParameter="{Binding Channel , ElementName=Channel}">
+                                                <materialDesign:PackIcon Kind="NavigateNext" />
+                                            </Button>
+                                        </StackPanel>
+                                    </tlc:ChannelGrid>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </Grid>
+            </DockPanel>
+        </Border>
+
+        <Grid x:Name="Content" Background="{StaticResource MainColor-Surface}" Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+
+            <ScrollViewer Grid.Row="0" x:Name="SvRuler" DockPanel.Dock="Top"
+                          Margin="0,0,17,0"
+                          DataContext="{StaticResource ViewModel}"
+                          HorizontalScrollBarVisibility="Hidden"
+                          VerticalScrollBarVisibility="Hidden"
+                          PreviewMouseDown="Sv_Ruler_OnPreviewMouseDown"
+                          PreviewMouseMove="Sv_Ruler_OnPreviewMouseMove"
+                          PreviewMouseUp="Sv_Ruler_OnPreviewMouseUp"
+                          ScrollChanged="ScrollViewer_OnScrollChanged">
+
+                <Grid Margin="20,0,20,0">
+                    <DockPanel>
+                        <tlc:HorizontalGridLine x:Name="HgRuler"
+                                                ColumnWidth="20"
+                                                Zoom="0.125"
+                                                DockPanel.Dock="Top"
+                                                Height="30"
+                                                HorizontalAlignment="Left"
+                                                Ruler="True"
+                                                RulerColumnPerUnit="{Binding ElementName=UserControl}"
+                                                RulerFont="A Sade"
+                                                RulerFontSize="12"
+                                                ColumnColor="DimGray"
+                                                DataContext="{StaticResource ViewModel}">
+                            <tlc:HorizontalGridLine.Viewport>
+                                <MultiBinding Converter="{StaticResource HorizontalGridLineViewportConverter}">
+                                    <Binding ElementName="SvKeyContainer" Path="ViewportWidth" />
+                                    <Binding ElementName="SvKeyContainer" Path="ContentHorizontalOffset" />
+                                </MultiBinding>
+                            </tlc:HorizontalGridLine.Viewport>
+                            <tlc:HorizontalGridLine.RulerFontColor>
+                                <LinearGradientBrush>
+                                    <GradientStop Color="White" />
+                                </LinearGradientBrush>
+                            </tlc:HorizontalGridLine.RulerFontColor>
+                        </tlc:HorizontalGridLine>
+                        <Border x:Name="BSubKeyContainer"
+                                DockPanel.Dock="Top"
+                                Height="20" />
+                    </DockPanel>
+                    <Line X1="0" Y1="1" Stretch="Fill" HorizontalAlignment="Left" IsHitTestVisible="False"
+                          DataContext="{Binding TimelineModel, ElementName=UserControl}" StrokeThickness="2"
+                          Stroke="DeepPink">
+                        <Line.Margin>
+                            <MultiBinding Converter="{StaticResource FrameToMarginConverter}"
+                                          UpdateSourceTrigger="PropertyChanged">
+                                <Binding Path="StartFrame" Mode="TwoWay" />
+                                <Binding ElementName="HgRuler" Path="Zoom" Mode="TwoWay" />
+                                <Binding ElementName="HgRuler" Path="ColumnWidth" Mode="TwoWay" />
+                            </MultiBinding>
+                        </Line.Margin>
+                    </Line>
+                    <Line X1="0" Y1="1" Stretch="Fill" HorizontalAlignment="Left" IsHitTestVisible="False"
+                          DataContext="{Binding TimelineModel, ElementName=UserControl}" StrokeThickness="2"
+                          Stroke="Yellow">
+                        <Line.Margin>
+                            <MultiBinding Converter="{StaticResource FrameToMarginConverter}"
+                                          UpdateSourceTrigger="PropertyChanged">
+                                <Binding Path="EndFrame" Mode="TwoWay" />
+                                <Binding ElementName="HgRuler" Path="Zoom" Mode="TwoWay" />
+                                <Binding ElementName="HgRuler" Path="ColumnWidth" Mode="TwoWay" />
+                            </MultiBinding>
+                        </Line.Margin>
+                    </Line>
+                    <Line X1="0" Y1="1" Stretch="Fill" HorizontalAlignment="Left" IsHitTestVisible="False"
+                          StrokeThickness="2" Stroke="Blue">
+                        <Line.Margin>
+                            <MultiBinding Converter="{StaticResource FrameToMarginConverter}"
+                                          UpdateSourceTrigger="PropertyChanged">
+                                <Binding ElementName="UserControl" Path="TimelineModel.LastFrame"
+                                         Mode="TwoWay" />
+                                <Binding ElementName="HgRuler" Path="Zoom" Mode="TwoWay" />
+                                <Binding ElementName="HgRuler" Path="ColumnWidth" Mode="TwoWay" />
+                            </MultiBinding>
+                        </Line.Margin>
+                    </Line>
+                    <Line X1="0" Y1="1" Stretch="Fill" HorizontalAlignment="Left" IsHitTestVisible="False"
+                          DataContext="{Binding TimelineModel, ElementName=UserControl}" StrokeThickness="2"
+                          Stroke="Red">
+                        <Line.Margin>
+                            <MultiBinding Converter="{StaticResource FrameToMarginConverter}"
+                                          UpdateSourceTrigger="PropertyChanged">
+                                <Binding Path="CurrentFrame" Mode="TwoWay" />
+                                <Binding ElementName="HgRuler" Path="Zoom" Mode="TwoWay" />
+                                <Binding ElementName="HgRuler" Path="ColumnWidth" Mode="TwoWay" />
+                            </MultiBinding>
+                        </Line.Margin>
+                    </Line>
+                </Grid>
+            </ScrollViewer>
+
+            <Grid Row="1"
+                  PreviewMouseDown="Grid_MouseDown"
+                  PreviewMouseUp="Grid_MouseUp"
+                  PreviewMouseMove="Grid_MouseMove">
+                <ScrollViewer x:Name="SvKeyContainer"
+                              Background="{StaticResource MainColor-Primary}"
+                              HorizontalScrollBarVisibility="Visible"
+                              VerticalScrollBarVisibility="Visible"
+                              PreviewMouseDown="sv_KeyContainer_PreviewMouseDown"
+                              PreviewMouseMove="sv_KeyContainer_PreviewMouseMove"
+                              PreviewMouseUp="sv_KeyContainer_PreviewMouseUp"
+                              PreviewMouseWheel="sv_KeyContainer_PreviewMouseWheel"
+                              ScrollChanged="ScrollViewer_OnScrollChanged">
+                    <Grid x:Name="KeyGrid">
+                        <Grid Margin="20,0,0,0">
+                            <DockPanel>
+                                <DockPanel.Resources>
+                                    <Style x:Key="HorizontalGridLineStyle" TargetType="{x:Type tlc:HorizontalGridLine}">
+                                        <Setter Property="Zoom"
+                                                Value="{Binding Zoom, ElementName=HgRuler, Mode=TwoWay}" />
+                                        <Setter Property="Viewport"
+                                                Value="{Binding Viewport, ElementName=HgRuler, Mode=TwoWay}" />
+                                        <Setter Property="Width" Value="{Binding Width, ElementName=HgRuler}" />
+                                        <Setter Property="ColumnWidth"
+                                                Value="{Binding ColumnWidth, ElementName=HgRuler}" />
+                                        <Setter Property="HorizontalAlignment"
+                                                Value="{Binding HorizontalAlignment, ElementName=HgRuler}" />
+                                        <Setter Property="ColumnColor"
+                                                Value="{Binding ColumnColor, ElementName=HgRuler}" />
+                                    </Style>
+                                </DockPanel.Resources>
+                                <tlc:HorizontalGridLine x:Name="HgContainer"
+                                                        Style="{StaticResource HorizontalGridLineStyle}"
+                                                        DataContext="{Binding ElementName=UserControl}">
+                                    <ItemsControl ItemsSource="{Binding Source={StaticResource ChannelView}}"
+                                                  ScrollViewer.VerticalScrollBarVisibility="Disabled">
+                                        <ItemsControl.ItemsPanel>
+                                            <ItemsPanelTemplate>
+                                                <StackPanel Orientation="Vertical" />
+                                            </ItemsPanelTemplate>
+                                        </ItemsControl.ItemsPanel>
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <ItemsControl
+                                                    Height="{Binding RowHeight, ElementName=UserControl}"
+                                                    ItemsSource="{Binding SortedDictionary}">
+                                                    <ItemsControl.ItemsPanel>
+                                                        <ItemsPanelTemplate>
+                                                            <Grid />
+                                                        </ItemsPanelTemplate>
+                                                    </ItemsControl.ItemsPanel>
+                                                    <ItemsControl.ItemTemplate>
+                                                        <DataTemplate>
+                                                            <tlc:TimelineKey x:Name="btn_TimelineKey"
+                                                                             Height="12"
+                                                                             Width="12"
+                                                                             SelectedKeyValues="{Binding SelectedKeyValues, ElementName=UserControl}"
+                                                                             KeyValue="{Binding Item2, Mode= OneWay}"
+                                                                             HorizontalAlignment="Left"
+                                                                             Selected="Btn_TimelineKey_OnSelected"
+                                                                             PreviewMouseDown="Btn_TimelineKey_PreviewMouseDown"
+                                                                             PreviewMouseMove="Btn_TimelineKey_PreviewMouseMove"
+                                                                             PreviewMouseUp="Btn_TimelineKey_PreviewMouseUp">
+                                                                <tlc:TimelineKey.Style>
+                                                                    <Style
+                                                                        TargetType="{x:Type tlc:TimelineKey}">
+                                                                        <Style.Triggers>
+                                                                            <Trigger
+                                                                                Property="IsSelected"
+                                                                                Value="True">
+                                                                                <Setter
+                                                                                    Property="Background"
+                                                                                    Value="Red" />
+                                                                            </Trigger>
+                                                                            <Trigger
+                                                                                Property="IsSelected"
+                                                                                Value="False">
+                                                                                <Setter
+                                                                                    Property="Background"
+                                                                                    Value="Gray" />
+                                                                            </Trigger>
+                                                                        </Style.Triggers>
+                                                                    </Style>
+                                                                </tlc:TimelineKey.Style>
+                                                                <tlc:TimelineKey.ContextMenu>
+                                                                    <ContextMenu>
+                                                                        <MenuItem Header="حذف کلید"
+                                                                                  Command="Delete">
+                                                                            <MenuItem.Icon>
+                                                                                <materialDesign:PackIcon
+                                                                                    Kind="Delete" />
+                                                                            </MenuItem.Icon>
+                                                                        </MenuItem>
+                                                                    </ContextMenu>
+                                                                </tlc:TimelineKey.ContextMenu>
+                                                                <tlc:TimelineKey.Clip>
+                                                                    <PathGeometry>
+                                                                        <PathGeometry.Figures>
+                                                                            <PathFigureCollection>
+                                                                                <PathFigure IsClosed="True"
+                                                                                            StartPoint="0,6">
+                                                                                    <PathFigure.Segments>
+                                                                                        <PathSegmentCollection>
+                                                                                            <PolyLineSegment
+                                                                                                Points="6 , 0" />
+                                                                                            <PolyLineSegment
+                                                                                                Points="12 , 6" />
+                                                                                            <PolyLineSegment
+                                                                                                Points="6 , 12" />
+                                                                                        </PathSegmentCollection>
+                                                                                    </PathFigure.Segments>
+                                                                                </PathFigure>
+                                                                            </PathFigureCollection>
+                                                                        </PathGeometry.Figures>
+                                                                    </PathGeometry>
+                                                                </tlc:TimelineKey.Clip>
+                                                                <tlc:TimelineKey.ToolTip>
+                                                                    <ToolTip>
+                                                                        <Label
+                                                                            Content="{Binding Item2.Val}" />
+                                                                    </ToolTip>
+                                                                </tlc:TimelineKey.ToolTip>
+                                                                <tlc:TimelineKey.Margin>
+                                                                    <MultiBinding
+                                                                        Converter="{StaticResource KeyMarginConverter}">
+                                                                        <Binding ElementName="HgContainer"
+                                                                                 Path="ColumnWidth" />
+                                                                        <Binding ElementName="HgContainer"
+                                                                                 Path="Zoom" />
+                                                                        <Binding
+                                                                            ElementName="btn_TimelineKey"
+                                                                            Path="KeyValue.Frame" />
+                                                                        <Binding
+                                                                            ElementName="btn_TimelineKey"
+                                                                            Path="Width" />
+                                                                    </MultiBinding>
+                                                                </tlc:TimelineKey.Margin>
+                                                            </tlc:TimelineKey>
+                                                        </DataTemplate>
+                                                    </ItemsControl.ItemTemplate>
+                                                </ItemsControl>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </tlc:HorizontalGridLine>
+                            </DockPanel>
+
+                            <Line X1="0" Y1="1" Stretch="Fill" HorizontalAlignment="Left" IsHitTestVisible="False"
+                                  DataContext="{Binding TimelineModel, ElementName=UserControl}" StrokeThickness="2"
+                                  Stroke="DeepPink">
+                                <Line.Margin>
+                                    <MultiBinding Converter="{StaticResource FrameToMarginConverter}"
+                                                  UpdateSourceTrigger="PropertyChanged">
+                                        <Binding Path="StartFrame" Mode="TwoWay" />
+                                        <Binding ElementName="HgRuler" Path="Zoom" Mode="TwoWay" />
+                                        <Binding ElementName="HgRuler" Path="ColumnWidth" Mode="TwoWay" />
+                                    </MultiBinding>
+                                </Line.Margin>
+                            </Line>
+                            <Line X1="0" Y1="1" Stretch="Fill" HorizontalAlignment="Left" IsHitTestVisible="False"
+                                  DataContext="{Binding TimelineModel, ElementName=UserControl}" StrokeThickness="2"
+                                  Stroke="Yellow">
+                                <Line.Margin>
+                                    <MultiBinding Converter="{StaticResource FrameToMarginConverter}"
+                                                  UpdateSourceTrigger="PropertyChanged">
+                                        <Binding Path="EndFrame" Mode="TwoWay" />
+                                        <Binding ElementName="HgRuler" Path="Zoom" Mode="TwoWay" />
+                                        <Binding ElementName="HgRuler" Path="ColumnWidth" Mode="TwoWay" />
+                                    </MultiBinding>
+                                </Line.Margin>
+                            </Line>
+                            <Line X1="0" Stretch="Fill" Y1="1" HorizontalAlignment="Left" IsHitTestVisible="False"
+                                  StrokeThickness="2" Stroke="Blue">
+                                <Line.Margin>
+                                    <MultiBinding Converter="{StaticResource FrameToMarginConverter}"
+                                                  UpdateSourceTrigger="PropertyChanged">
+                                        <Binding ElementName="UserControl" Path="TimelineModel.LastFrame"
+                                                 Mode="TwoWay" />
+                                        <Binding ElementName="HgRuler" Path="Zoom" Mode="TwoWay" />
+                                        <Binding ElementName="HgRuler" Path="ColumnWidth" Mode="TwoWay" />
+                                    </MultiBinding>
+                                </Line.Margin>
+                            </Line>
+                            <Line x:Name="CurrentFrameLine" X1="0" Stretch="Fill" Y1="1" HorizontalAlignment="Left"
+                                  IsHitTestVisible="False"
+                                  DataContext="{Binding TimelineModel , ElementName=UserControl}" StrokeThickness="2"
+                                  Stroke="Red">
+                                <Line.Margin>
+                                    <MultiBinding Converter="{StaticResource FrameToMarginConverter}"
+                                                  UpdateSourceTrigger="PropertyChanged">
+                                        <Binding Path="CurrentFrame" Mode="TwoWay" />
+                                        <Binding ElementName="HgRuler" Path="Zoom" Mode="TwoWay" />
+                                        <Binding ElementName="HgRuler" Path="ColumnWidth" Mode="TwoWay" />
+                                    </MultiBinding>
+                                </Line.Margin>
+                            </Line>
+                        </Grid>
+
+                        <Canvas>
+                            <!-- This canvas is overlaid over the previous canvas and is used to 
+                            place the rectangle that implements the drag selection box. -->
+                            <Rectangle
+                                x:Name="SelectionBox"
+                                Visibility="Collapsed"
+                                Fill="Blue"
+                                Opacity="0.3"
+                                StrokeThickness="1" />
+                        </Canvas>
+                    </Grid>
+                </ScrollViewer>
+            </Grid>
+        </Grid>
+
+        <Border Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Background="{StaticResource MainColor-Surface}"
+                BorderBrush="{StaticResource MainColor-OnPrimary}"
+                BorderThickness="5"
+                IsHitTestVisible="{Binding TimelineModel.Animator, ElementName=UserControl , Converter={StaticResource NullToBooleanConverter}}"
+                Visibility="{Binding TimelineModel.Animator, ElementName=UserControl, Converter={StaticResource NullToVisibilityConverter}}"
+                mc:Ignorable="d"
+                d:IsHidden="True">
+            <TextBlock Text="This object dose not contains animator"
+                       FontSize="25"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center" />
+        </Border>
+
+        <Border Grid.Column="0"
+                Grid.ColumnSpan="2"
+                Background="{StaticResource MainColor-Surface}"
+                BorderBrush="{StaticResource MainColor-OnPrimary}"
+                BorderThickness="5"
+                IsHitTestVisible="{Binding Disable, ElementName=UserControl}"
+                Visibility="{Binding Disable, ElementName=UserControl , Converter={StaticResource BooleanToVisibilityConverter}}"
+                mc:Ignorable="d"
+                d:IsHidden="True">
+            <TextBlock Text="Animator does not work on play mode"
+                       FontSize="25"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center" />
+        </Border>
+    </Grid>
+</UserControl>

@@ -1,0 +1,534 @@
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Timeline\User Controllers\Timeline.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\User Controllers\StoryMakerPanel.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\User Controllers\TermConditionPanel.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\App.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\MaterialDesignColors.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\Newtonsoft.Json.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\System.Net.Http.Formatting.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\MaterialDesignColors.pdb
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\Newtonsoft.Json.xml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\System.Net.Http.Formatting.xml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\App.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Styles\Styles.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Timeline\User Controllers\Timeline.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\User Controllers\StoryMakerPanel.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\User Controllers\TermConditionPanel.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\StoryMaker.Properties.Resources.resources
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\StoryMaker.csproj.GenerateResource.cache
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\StoryMaker.csproj.CopyComplete
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\StoryMaker.csproj.AssemblyReference.cache
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\StoryMaker.csproj.CoreCompileInputs.cache
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\Helpers\ffmpeg.exe
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\Resources\Fonts\YekanBakh-Regular.ttf
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\Resources\Fonts\YekanBakh-Bold.ttf
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\Resources\Fonts\YekanBakh-Fat.ttf
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\Resources\Fonts\YekanBakh-Heavy.ttf
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\Resources\Fonts\YekanBakh-Medium.ttf
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\Info.txt
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\Assembly-CSharp.exe.config
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\Assembly-CSharp.exe
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\Assembly-CSharp.pdb
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\Enterwell.Clients.Wpf.Notifications.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\Microsoft.CSharp.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\PresentationCore.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\PresentationFramework.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\SemanticVersion.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\System.Configuration.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\System.Data.DataSetExtensions.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\System.Data.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\System.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\System.IO.Compression.FileSystem.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\System.Net.Http.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\System.Web.Extensions.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\System.Windows.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\System.Windows.Forms.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\System.Xaml.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\System.Xml.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\System.Xml.Linq.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\WindowsBase.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\WindowsFormsIntegration.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Graph\Dialog\NodePickerDialog.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Graph\UserController\BinderButton.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Helpers\ChooseFromList.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Resources\StringContainer.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\LeftSideMenu.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\SplashScreen.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\SoundComponentView.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\UserControls\VariableView.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Graph\Dialog\NodePickerDialog.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Graph\UserController\BinderButton.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Graph\UserController\GraphWorkSpace.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Graph\UserController\Nodes\Node.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Graph\UserController\Paths\NormalPath.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Helpers\ChooseFromList.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Helpers\InputField.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\ChangeImageActionView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\ExitSceneActionView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\PlaySoundActionView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\SetVariableActionView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\SetVisibilityActionView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\CameraComponentView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\CompareValuesView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\InteractivityView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Dialogs\InputDialog.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Dialogs\SettingDialog.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Dialogs\SpriteSheetWizard.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\EditorViewPort.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\LeftSideMenu.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\ScenesManager.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\CameraComponentUserControl.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\SplashScreen.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\StoryViewPort.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\ComponentContainer.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\ImageComponentView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\TransformComponentView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\SoundComponentView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Editor.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Hierarchy.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Inspector.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\SceneGatesManager.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\MainWindow.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\UserControls\VariableView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Utilz\EditableTextBlock.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Utilz\HandlerControl.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\VariableManager.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\ImageComponentUserControl.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\StoryObjectUserControl.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Assembly-CSharp_Content.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Assembly-CSharp_MarkupCompile.cache
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Assembly-CSharp_MarkupCompile.lref
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Graph\UserController\GraphWorkSpace.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Graph\UserController\Nodes\Node.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Graph\UserController\Paths\NormalPath.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Helpers\InputField.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Themes\Generic.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\ChangeImageActionView.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\ExitSceneActionView.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\PlaySoundActionView.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\SetVariableActionView.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\SetVisibilityActionView.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\CameraComponentView.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\CompareValuesView.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\InteractivityView.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Dialogs\InputDialog.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Dialogs\SettingDialog.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Dialogs\SpriteSheetWizard.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\EditorViewPort.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\ScenesManager.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\CameraComponentUserControl.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\StoryViewPort.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\ComponentContainer.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\ImageComponentView.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\TransformComponentView.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Editor.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Hierarchy.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Inspector.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\SceneGatesManager.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\MainWindow.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Utilz\EditableTextBlock.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Utilz\HandlerControl.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\VariableManager.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\ImageComponentUserControl.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\StoryObjectUserControl.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Assembly-CSharp.g.resources
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Assembly-CSharp.exe
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Assembly-CSharp.pdb
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\FolderManager.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Dialogs\FolderManagerDialog.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\FolderManager.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Dialogs\FolderManagerDialog.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\AnimatorComponentView.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\UserControls\Vector2View.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Utilz\CustomTextBox.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Inspector\InspectorView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Inspector\TestWin.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Inspector\Views\IntField.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\PlayAnimationActionView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\AnimatorComponentView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\DropConditionView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\CustomView\EditableTextBox.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Dialogs\DependencyChangerDialog.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\ActionsList.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\InteractivityDesignerDialogue.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\InteractivityModule.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\RenderDialogueView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\SceneDetailsDialogue.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\UserControls\Vector2View.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Utilz\CustomTextBox.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Inspector\InspectorView.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Inspector\TestWin.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Inspector\Views\IntField.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\PlayAnimationActionView.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\DropConditionView.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\CustomView\EditableTextBox.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Dialogs\DependencyChangerDialog.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\ActionsList.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\InteractivityDesignerDialogue.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\InteractivityModule.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\RenderDialogueView.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\SceneDetailsDialogue.baml
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\StoryMaker.Graph.DefaultGraph.resources
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\StoryMaker.Resources.Icons.resources
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\TimerView.g.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\TimerView.baml
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\Helpers\ffmpeg.exe
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\Resources\Fonts\YekanBakh-Regular.ttf
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\Resources\Fonts\YekanBakh-Bold.ttf
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\Resources\Fonts\YekanBakh-Fat.ttf
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\Resources\Fonts\YekanBakh-Heavy.ttf
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\Resources\Fonts\YekanBakh-Medium.ttf
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\Info.txt
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\Assembly-CSharp.exe.config
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\Assembly-CSharp.exe
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\Assembly-CSharp.pdb
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\Enterwell.Clients.Wpf.Notifications.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\MaterialDesignColors.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\Microsoft.CSharp.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\Newtonsoft.Json.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\PresentationCore.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\PresentationFramework.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\SemanticVersion.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Configuration.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Data.DataSetExtensions.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Data.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.IO.Compression.FileSystem.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Net.Http.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Net.Http.Formatting.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Web.Extensions.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Windows.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Windows.Forms.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Xaml.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Xml.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Xml.Linq.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\WindowsBase.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\WindowsFormsIntegration.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\MaterialDesignColors.pdb
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\Newtonsoft.Json.xml
+D:\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Net.Http.Formatting.xml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\StoryMaker.csproj.AssemblyReference.cache
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\Dialog\NodePickerDialog.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\UserController\BinderButton.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Helpers\ChooseFromList.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Resources\StringContainer.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\AnimatorComponentView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\LeftSideMenu.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\SplashScreen.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\SoundComponentView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\UserControls\VariableView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\UserControls\Vector2View.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Utilz\CustomTextBox.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\Dialog\NodePickerDialog.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\UserController\BinderButton.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\UserController\GraphWorkSpace.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\UserController\Nodes\Node.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\UserController\Paths\NormalPath.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Helpers\ChooseFromList.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Helpers\InputField.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Inspector\InspectorView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Inspector\TestWin.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Inspector\Views\IntField.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\ChangeImageActionView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\ExitSceneActionView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\PlayAnimationActionView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\PlaySoundActionView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\SetVariableActionView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\SetVisibilityActionView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\AnimatorComponentView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\CameraComponentView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\CompareValuesView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\DropConditionView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\InteractivityView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\TimerView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\CustomView\EditableTextBox.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\DependencyChangerDialog.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\InputDialog.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\SettingDialog.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\SpriteSheetWizard.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\EditorViewPort.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\ActionsList.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\InteractivityDesignerDialogue.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\InteractivityModule.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\LeftSideMenu.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\FolderManager.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\RenderDialogueView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\SceneDetailsDialogue.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\ScenesManager.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\CameraComponentUserControl.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\SplashScreen.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\StoryViewPort.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\ComponentContainer.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\ImageComponentView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\TransformComponentView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Timeline\User Controllers\Timeline.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\User Controllers\StoryMakerPanel.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\User Controllers\TermConditionPanel.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\SoundComponentView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Editor.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Hierarchy.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Inspector.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\FolderManagerDialog.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\SceneGatesManager.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\MainWindow.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\UserControls\VariableView.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\UserControls\Vector2View.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Utilz\CustomTextBox.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Utilz\EditableTextBlock.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Utilz\HandlerControl.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\VariableManager.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\ImageComponentUserControl.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\StoryObjectUserControl.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\App.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Assembly-CSharp_Content.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Assembly-CSharp_MarkupCompile.cache
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Assembly-CSharp_MarkupCompile.lref
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\App.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\UserController\GraphWorkSpace.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\UserController\Nodes\Node.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\UserController\Paths\NormalPath.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Helpers\InputField.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Inspector\InspectorView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Inspector\TestWin.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Inspector\Views\IntField.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Themes\Generic.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\ChangeImageActionView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\ExitSceneActionView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\PlayAnimationActionView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\PlaySoundActionView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\SetVariableActionView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\SetVisibilityActionView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\CameraComponentView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\CompareValuesView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\DropConditionView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\InteractivityView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\TimerView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\CustomView\EditableTextBox.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\DependencyChangerDialog.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\InputDialog.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\SettingDialog.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\SpriteSheetWizard.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\EditorViewPort.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\ActionsList.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\InteractivityDesignerDialogue.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\InteractivityModule.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\FolderManager.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\RenderDialogueView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\SceneDetailsDialogue.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\ScenesManager.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\CameraComponentUserControl.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\StoryViewPort.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\ComponentContainer.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\ImageComponentView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\TransformComponentView.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Styles\Styles.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Timeline\User Controllers\Timeline.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\User Controllers\StoryMakerPanel.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\User Controllers\TermConditionPanel.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Editor.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Hierarchy.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Inspector.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\FolderManagerDialog.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\SceneGatesManager.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\MainWindow.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Utilz\EditableTextBlock.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Utilz\HandlerControl.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\VariableManager.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\ImageComponentUserControl.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\StoryObjectUserControl.baml
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Assembly-CSharp.g.resources
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\StoryMaker.Graph.DefaultGraph.resources
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\StoryMaker.Resources.Icons.resources
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\StoryMaker.Properties.Resources.resources
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\StoryMaker.csproj.GenerateResource.cache
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\StoryMaker.csproj.CoreCompileInputs.cache
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\StoryMaker.csproj.CopyComplete
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Assembly-CSharp.exe
+D:\project-poyanoo\pooyano\StoryMaker\obj\Debug\Assembly-CSharp.pdb
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\Helpers\ffmpeg.exe
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\Resources\Fonts\YekanBakh-Regular.ttf
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\Resources\Fonts\YekanBakh-Bold.ttf
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\Resources\Fonts\YekanBakh-Fat.ttf
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\Resources\Fonts\YekanBakh-Heavy.ttf
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\Resources\Fonts\YekanBakh-Medium.ttf
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\Info.txt
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\Assembly-CSharp.exe.config
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\Assembly-CSharp.exe
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\Assembly-CSharp.pdb
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\Enterwell.Clients.Wpf.Notifications.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\MaterialDesignColors.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\Microsoft.CSharp.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\Newtonsoft.Json.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\PresentationCore.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\PresentationFramework.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\SemanticVersion.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Configuration.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Data.DataSetExtensions.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Data.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.IO.Compression.FileSystem.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Net.Http.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Net.Http.Formatting.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Web.Extensions.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Windows.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Windows.Forms.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Xaml.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Xml.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Xml.Linq.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\WindowsBase.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\WindowsFormsIntegration.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\MaterialDesignColors.pdb
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\Newtonsoft.Json.xml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\bin\Debug\System.Net.Http.Formatting.xml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\StoryMaker.csproj.AssemblyReference.cache
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\Dialog\NodePickerDialog.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\UserController\BinderButton.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Helpers\ChooseFromList.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Resources\StringContainer.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\AnimatorComponentView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\LeftSideMenu.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\SplashScreen.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\SoundComponentView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\UserControls\VariableView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\UserControls\Vector2View.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Utilz\CustomTextBox.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\Dialog\NodePickerDialog.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\UserController\BinderButton.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\UserController\GraphWorkSpace.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\UserController\Nodes\Node.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\UserController\Paths\NormalPath.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Helpers\ChooseFromList.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Helpers\InputField.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Inspector\InspectorView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Inspector\TestWin.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Inspector\Views\IntField.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\ChangeImageActionView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\ExitSceneActionView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\PlayAnimationActionView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\PlaySoundActionView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\SetVariableActionView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\SetVisibilityActionView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\AnimatorComponentView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\CameraComponentView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\CompareValuesView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\DropConditionView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\InteractivityView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\TimerView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\CustomView\EditableTextBox.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\DependencyChangerDialog.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\InputDialog.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\SettingDialog.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\SpriteSheetWizard.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\EditorViewPort.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\ActionsList.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\InteractivityDesignerDialogue.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\InteractivityModule.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\LeftSideMenu.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\FolderManager.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\RenderDialogueView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\SceneDetailsDialogue.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\ScenesManager.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\CameraComponentUserControl.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\SplashScreen.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\StoryViewPort.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\ComponentContainer.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\ImageComponentView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\TransformComponentView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Timeline\User Controllers\Timeline.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\User Controllers\StoryMakerPanel.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\User Controllers\TermConditionPanel.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\SoundComponentView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Editor.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Hierarchy.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Inspector.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\FolderManagerDialog.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\SceneGatesManager.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\MainWindow.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\UserControls\VariableView.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\UserControls\Vector2View.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Utilz\CustomTextBox.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Utilz\EditableTextBlock.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Utilz\HandlerControl.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\VariableManager.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\ImageComponentUserControl.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\StoryObjectUserControl.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\App.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Assembly-CSharp_Content.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Assembly-CSharp_MarkupCompile.cache
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Assembly-CSharp_MarkupCompile.lref
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\App.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\UserController\GraphWorkSpace.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\UserController\Nodes\Node.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Graph\UserController\Paths\NormalPath.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Helpers\InputField.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Inspector\InspectorView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Inspector\TestWin.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Inspector\Views\IntField.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Themes\Generic.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\ChangeImageActionView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\ExitSceneActionView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\PlayAnimationActionView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\PlaySoundActionView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\SetVariableActionView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Actions\SetVisibilityActionView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\CameraComponentView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\CompareValuesView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\DropConditionView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\InteractivityView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\Interactivities\TimerView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\CustomView\EditableTextBox.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\DependencyChangerDialog.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\InputDialog.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\SettingDialog.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\SpriteSheetWizard.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\EditorViewPort.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\ActionsList.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\InteractivityDesignerDialogue.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\InteractivityDesigner\InteractivityModule.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\FolderManager.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\RenderDialogueView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\SceneDetailsDialogue.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\ScenesManager.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\CameraComponentUserControl.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\StoryViewPort.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\ComponentContainer.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\ImageComponentView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Components\TransformComponentView.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Styles\Styles.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Timeline\User Controllers\Timeline.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\User Controllers\StoryMakerPanel.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\User Controllers\TermConditionPanel.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Editor.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Hierarchy.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Inspector.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Dialogs\FolderManagerDialog.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\SceneGatesManager.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\MainWindow.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Utilz\EditableTextBlock.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\Utilz\HandlerControl.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\VariableManager.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\ImageComponentUserControl.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Views\DrawableComponent\StoryObjectUserControl.baml
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Assembly-CSharp.g.resources
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\StoryMaker.Graph.DefaultGraph.resources
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\StoryMaker.Resources.Icons.resources
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\StoryMaker.Properties.Resources.resources
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\StoryMaker.csproj.GenerateResource.cache
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\StoryMaker.csproj.CoreCompileInputs.cache
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\StoryMaker.csproj.CopyComplete
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Assembly-CSharp.exe
+D:\CompanyDoc\project-poyanoo\pooyano\StoryMaker\obj\Debug\Assembly-CSharp.pdb

@@ -1,0 +1,27 @@
+﻿<UserControl x:Name="userControl" x:Class="StoryMaker.Inspector.Views.IntField"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:StoryMaker.Inspector.Views"
+             mc:Ignorable="d">
+    <Grid DataContext="{Binding Field, ElementName=userControl}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="70*"/>
+            <ColumnDefinition Width="10"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Column="1"
+                   HorizontalAlignment="Stretch" 
+                   TextWrapping="WrapWithOverflow"
+                   Text="{Binding PropertyName}" 
+                   VerticalAlignment="Center"/>
+        <TextBox Grid.Column="2"
+                 MinWidth="40" 
+                 HorizontalAlignment="Stretch" 
+                 VerticalAlignment="Center" 
+                 Height="30" 
+                 Text="{Binding PropertyValue}"/>
+    </Grid>
+</UserControl>

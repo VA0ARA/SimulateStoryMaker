@@ -1,0 +1,20 @@
+﻿Assembly-CSharp
+
+
+winexe
+C#
+.cs
+D:\Alireza Rezaeinia\pooyano\StoryMaker\obj\Release\
+StoryMaker
+none
+false
+TRACE
+D:\Alireza Rezaeinia\pooyano\StoryMaker\App.xaml
+63-1333316603
+7-310555713
+471751157289
+26-70894463
+Graph\Dialog\NodePickerDialog.xaml;Graph\UserController\BinderButton.xaml;Graph\UserController\GraphWorkSpace.xaml;Graph\UserController\Nodes\Node.xaml;Graph\UserController\Paths\NormalPath.xaml;Helpers\ChooseFromList.xaml;Helpers\InputField.xaml;Inspector\InspectorView.xaml;Inspector\TestWin.xaml;Inspector\Views\IntField.xaml;Resources\StringContainer.xaml;Themes\Generic.xaml;Views\Components\Actions\ChangeImageActionView.xaml;Views\Components\Actions\ExitSceneActionView.xaml;Views\Components\Actions\PlayAnimationActionView.xaml;Views\Components\Actions\PlaySoundActionView.xaml;Views\Components\Actions\SetVariableActionView.xaml;Views\Components\Actions\SetVisibilityActionView.xaml;Views\Components\AnimatorComponentView.xaml;Views\Components\CameraComponentView.xaml;Views\Components\Interactivities\CompareValuesView.xaml;Views\Components\Interactivities\DropConditionView.xaml;Views\Components\Interactivities\InteractivityView.xaml;Views\Components\Interactivities\TimerView.xaml;Views\CustomView\EditableTextBox.xaml;Views\Dialogs\DependencyChangerDialog.xaml;Views\Dialogs\InputDialog.xaml;Views\Dialogs\SettingDialog.xaml;Views\Dialogs\SpriteSheetWizard.xaml;Views\EditorViewPort.xaml;Views\InteractivityDesigner\ActionsList.xaml;Views\InteractivityDesigner\InteractivityDesignerDialogue.xaml;Views\InteractivityDesigner\InteractivityModule.xaml;Views\LeftSideMenu.xaml;Views\FolderManager.xaml;Views\RenderDialogueView.xaml;Views\SceneDetailsDialogue.xaml;Views\ScenesManager.xaml;Views\DrawableComponent\CameraComponentUserControl.xaml;Views\SplashScreen.xaml;Views\StoryViewPort.xaml;Views\Components\ComponentContainer.xaml;Views\Components\ImageComponentView.xaml;Views\Components\TransformComponentView.xaml;Styles\Styles.xaml;Timeline\User Controllers\Timeline.xaml;User Controllers\StoryMakerPanel.xaml;User Controllers\TermConditionPanel.xaml;Views\Components\SoundComponentView.xaml;Views\Editor.xaml;Views\Hierarchy.xaml;Views\Inspector.xaml;Views\Dialogs\FolderManagerDialog.xaml;Views\SceneGatesManager.xaml;Views\MainWindow.xaml;Views\UserControls\VariableView.xaml;Views\UserControls\Vector2View.xaml;Views\Utilz\CustomTextBox.xaml;Views\Utilz\EditableTextBlock.xaml;Views\Utilz\HandlerControl.xaml;Views\VariableManager.xaml;Views\DrawableComponent\ImageComponentUserControl.xaml;Views\DrawableComponent\StoryObjectUserControl.xaml;
+
+True
+

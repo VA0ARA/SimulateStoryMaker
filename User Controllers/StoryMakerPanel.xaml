@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="StoryMaker.User_Controllers.StoryMakerPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:tl="clr-namespace:Timeline.User_Controllers"
+             xmlns:local="clr-namespace:StoryMaker.User_Controllers"
+             mc:Ignorable="d" d:DesignHeight="720" d:DesignWidth="1280" Background="{StaticResource MainColor-Surface}">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25*"/>
+            <ColumnDefinition Width="103*"/>
+        </Grid.ColumnDefinitions>
+        <Border Grid.Column="0" BorderBrush="#1FFFFFFF" BorderThickness="0,0,1,0">
+        </Border>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="51*"/>
+                <RowDefinition Height="29*"/>
+            </Grid.RowDefinitions>
+            <DockPanel Grid.Row="0"/>
+            <Border Grid.Row="1" BorderBrush="#1FFFFFFF" BorderThickness="0,1,0,0">
+                <tl:TimeLine >
+
+                </tl:TimeLine>
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>

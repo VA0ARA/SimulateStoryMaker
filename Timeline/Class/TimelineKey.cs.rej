@@ -1,0 +1,22 @@
+diff a/StoryMaker/Timeline/Class/TimelineKey.cs b/StoryMaker/Timeline/Class/TimelineKey.cs	(rejected hunks)
+@@ -18,20 +18,6 @@
+             set { SetValue(IsSelectedProperty, value); }
+         }
+ 
+-        public static readonly DependencyProperty SelectedKeyValuesProperty = DependencyProperty.Register(
+-            nameof(SelectedKeyValues), typeof(ObservableCollection<KeyValue>), typeof(TimelineKey),
+-            new PropertyMetadata(default(ObservableCollection<KeyValue>), SelectedKeysChanged));
+-
+-        private static void SelectedKeysChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+-        {
+-            if (!(d is TimelineKey key)) return;
+-            var newKeys = (ObservableCollection<KeyValue>) e.NewValue;
+-
+-            key.IsSelected = newKeys.Any(k => k != null &&
+-                                              k.Channel.Recordable == key.KeyValue.Channel.Recordable &&
+-                                              k.Channel.Name == key.KeyValue.Channel.Name &&
+-                                              k.Key == key.KeyValue.Key);
+-        }
+         public static readonly DependencyProperty KeyProperty = DependencyProperty.Register(
+             nameof(Key), typeof(int), typeof(TimelineKey), new PropertyMetadata(default(int)));
+ 

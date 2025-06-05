@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoryMaker", "StoryMaker.csproj", "{BBF5436B-A7F1-4047-A4FE-FCADC1442209}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBF5436B-A7F1-4047-A4FE-FCADC1442209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBF5436B-A7F1-4047-A4FE-FCADC1442209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBF5436B-A7F1-4047-A4FE-FCADC1442209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBF5436B-A7F1-4047-A4FE-FCADC1442209}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E607B1E9-7A90-455E-8090-E9C7F9B1DB6B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Client-Manafzade\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Client-Manafzade\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="D:\Alireza Rezaeinia\pooyano\StoryMaker" t="IncludeRecursive">
+      <e p="Api" t="Include">
+        <e p="ApiHelper.cs" t="Include" />
+        <e p="RequestHandler.cs" t="Include" />
+      </e>
+      <e p="App.config" t="Include" />
+      <e p="App.xaml" t="Include" />
+      <e p="App.xaml.cs" t="Include" />
+      <e p="Backend" t="Include">
+        <e p="ActionDataStructure.cs" t="Include" />
+        <e p="Animation" t="Include">
+          <e p="AnimationClip.cs" t="Include" />
+          <e p="AnimationPack.cs" t="Include" />
+          <e p="Channel.cs" t="Include" />
+          <e p="Element.cs" t="Include" />
+          <e p="IAsset.cs" t="Include" />
+          <e p="IImage.cs" t="Include" />
+          <e p="ImageAsset.cs" t="Include" />
+          <e p="Point.cs" t="Include" />
+          <e p="Renderer.cs" t="Include" />
+          <e p="Transform.cs" t="Include" />
+        </e>
+        <e p="Asset.cs" t="Include" />
+        <e p="AssetsInfo.cs" t="Include" />
+        <e p="ElementDataStructure.cs" t="Include" />
+        <e p="Graph" t="Include">
+          <e p="Connection.cs" t="Include" />
+          <e p="Graph.cs" t="Include" />
+          <e p="GraphInfo.cs" t="Include" />
+          <e p="Tree.cs" t="Include" />
+          <e p="ViewMeta" t="Include">
+            <e p="NodeMetaDataStructure.cs" t="Include" />
+            <e p="SimpleNode.cs" t="Include" />
+          </e>
+        </e>
+        <e p="INormalize.cs" t="Include" />
+        <e p="InterAcitveDataStructure.cs" t="Include" />
+        <e p="PackageDataStructure.cs" t="Include" />
+        <e p="Paths.cs" t="Include" />
+        <e p="Software" t="Include">
+          <e p="ISetting.cs" t="Include" />
+          <e p="SaveSetting.cs" t="Include" />
+          <e p="Setting.cs" t="Include" />
+          <e p="SoftwareStructure.cs" t="Include" />
+        </e>
+        <e p="SpriteSheetDataStructure.cs" t="Include" />
+        <e p="StoryDataStructure.cs" t="Include" />
+        <e p="Version 1" t="Include">
+          <e p="RecordDataStructure.cs" t="Include" />
+          <e p="StoryAssetDataStructure.cs" t="Include" />
+          <e p="StoryDataStructure.cs" t="Include" />
+        </e>
+        <e p="Version1_5" t="Include">
+          <e p="ElementDataStructure.cs" t="Include" />
+          <e p="SceneDataStructure.cs" t="Include" />
+        </e>
+        <e p="Version2" t="Include">
+          <e p="ActionBase.cs" t="Include" />
+          <e p="ActionBoolParameterDataStructure.cs" t="Include" />
+          <e p="ActionDataStructure.cs" t="Include" />
+          <e p="ActionStringParameter.cs" t="Include" />
+          <e p="ActionTypes.cs" t="Include" />
+          <e p="Asset.cs" t="Include" />
+          <e p="AssetCollector.cs" t="Include" />
+          <e p="AssetTypes.cs" t="Include" />
+          <e p="CameraDataStructure.cs" t="Include" />
+          <e p="CompareDataStructure.cs" t="Include" />
+          <e p="ConditionTypes.cs" t="Include" />
+          <e p="ElementDataStructure.cs" t="Include" />
+          <e p="FileTypes.cs" t="Include" />
+          <e p="GraphDataStructure.cs" t="Include" />
+          <e p="IAssetCollector.cs" t="Include" />
+          <e p="ImageComponentDataStructure.cs" t="Include" />
+          <e p="InterActiveDataStructure.cs" t="Include" />
+          <e p="NodeDataStructure.cs" t="Include" />
+          <e p="NodeDestinationStructure.cs" t="Include" />
+          <e p="NodePackageDataStructure.cs" t="Include" />
+          <e p="NodeRelationDataStructure.cs" t="Include" />
+          <e p="PackageDataStructure.cs" t="Include" />
+          <e p="ProjectDataStructure.cs" t="Include" />
+          <e p="ProjectInfo.cs" t="Include" />
+          <e p="SceneDataStructure.cs" t="Include" />
+          <e p="SetVariableActionDataStructure.cs" t="Include" />
+          <e p="SoundAsset.cs" t="Include" />
+          <e p="SpriteSheetAsset.cs" t="Include" />
+          <e p="SpriteSheetDataStructure.cs" t="Include" />
+          <e p="TransformActionDataStructure.cs" t="Include" />
+          <e p="TransformComponentDataStructure.cs" t="Include" />
+          <e p="TriggerTypes.cs" t="Include" />
+          <e p="UnityAnimationAsset.cs" t="Include" />
+          <e p="VariableDataStructure.cs" t="Include" />
+        </e>
+      </e>
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Collections" t="Include">
+        <e p="BinarySorter.cs" t="Include" />
+        <e p="ConcurrentKeyCollection.cs" t="Include" />
+        <e p="ConcurrentObservableBase.cs" t="Include" />
+        <e p="ConcurrentObservableCollection.cs" t="Include" />
+        <e p="ConcurrentObservableDictionary.cs" t="Include" />
+        <e p="ConcurrentObservableSortedDictionary.cs" t="Include" />
+        <e p="ConcurrentValueCollection.cs" t="Include" />
+        <e p="DispatcherQueueProcessor.cs" t="Include" />
+        <e p="DoubleLinkListDictionaryNode.cs" t="Include" />
+        <e p="DoubleLinkListIndexNode.cs" t="Include" />
+        <e p="ImmutableCollection.cs" t="Include" />
+        <e p="ImmutableCollectionBase.cs" t="Include" />
+        <e p="KeyCollection.cs" t="Include" />
+        <e p="MostRecentlyUsedDictionary.cs" t="Include" />
+        <e p="ObservableCollectionViewModel.cs" t="Include" />
+        <e p="ObservableDictionary.cs" t="Include" />
+        <e p="ObservableSortedDictionary.cs" t="Include" />
+        <e p="ValueCollection.cs" t="Include" />
+      </e>
+      <e p="Command" t="Include">
+        <e p="CommandExecuterMachine.cs" t="Include" />
+        <e p="Commands" t="Include">
+          <e p="AddComponentCommand.cs" t="Include" />
+          <e p="AddMultiStoryObjectCommand.cs" t="Include" />
+          <e p="AddStoryObjectCommand.cs" t="Include" />
+          <e p="ChangeSelectedObjectCommand.cs" t="Include" />
+          <e p="CompoundCommand.cs" t="Include" />
+          <e p="EmptyCommand.cs" t="Include" />
+          <e p="EnableChangeSelection.cs" t="Include" />
+          <e p="InverseCommand.cs" t="Include" />
+          <e p="MoveKeyCommand.cs" t="Include" />
+          <e p="RemoveKeyCommand.cs" t="Include" />
+          <e p="SetChannelKeyCommand.cs" t="Include" />
+        </e>
+        <e p="ICommand.cs" t="Include" />
+      </e>
+      <e p="Converters" t="Include">
+        <e p="ActionTitle.cs" t="Include" />
+        <e p="ActionToViewConverter.cs" t="Include" />
+        <e p="BooleanInverter.cs" t="Include" />
+        <e p="BoolToSignConverter.cs" t="Include" />
+        <e p="BoolToVisibilityConverter.cs" t="Include" />
+        <e p="CameraFrameToPointCollectionConverter.cs" t="Include" />
+        <e p="CameraToRenderTransformConverter.cs" t="Include" />
+        <e p="ElementModelToTimelineChannelsConverter.cs" t="Include" />
+        <e p="InteractivtyParameterConverter.cs" t="Include" />
+        <e p="MathConverter.cs" t="Include" />
+        <e p="MultiMarginConverter.cs" t="Include" />
+        <e p="MyImageConverter.cs" t="Include" />
+        <e p="NullToVisibilityConverter.cs" t="Include" />
+        <e p="OperatorConverter.cs" t="Include" />
+        <e p="PivotConverter.cs" t="Include" />
+        <e p="PointConverter.cs" t="Include" />
+        <e p="ScenePackage" t="Include">
+          <e p="IScenePackageConverter.cs" t="Include" />
+          <e p="ScenePackageConverter.cs" t="Include" />
+        </e>
+        <e p="ShortenStringConverter.cs" t="Include" />
+        <e p="ShortFileNameConverter.cs" t="Include" />
+        <e p="StoryObjectFilter.cs" t="Include" />
+        <e p="StoryObjectsToTreeConverter.cs" t="Include" />
+        <e p="StoryObjectToComponentConverter.cs" t="Include" />
+      </e>
+      <e p="Core" t="Include">
+        <e p="Bound.cs" t="Include" />
+        <e p="IntPoint.cs" t="Include" />
+        <e p="Save_Load" t="Include">
+          <e p="AnimationVersion1.cs" t="Include" />
+          <e p="ISaveProject.cs" t="Include" />
+          <e p="SaveProject.cs" t="Include" />
+          <e p="SoftwareData.cs" t="Include" />
+        </e>
+      </e>
+      <e p="DataStructure" t="Include">
+        <e p="Actions" t="Include">
+          <e p="ChangeImage" t="Include">
+            <e p="ChangeImageDS.cs" t="Include" />
+          </e>
+          <e p="ExitScene" t="Include">
+            <e p="ExitSceneDS.cs" t="Include" />
+          </e>
+          <e p="PlayAnimationActionDS.cs" t="Include" />
+          <e p="PlaySound" t="Include">
+            <e p="PlaySoundDS.cs" t="Include" />
+          </e>
+          <e p="SetVariable" t="Include">
+            <e p="SetVariableDS.cs" t="Include" />
+          </e>
+          <e p="Transform" t="Include">
+            <e p="TransformDS.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Animator" t="Include">
+          <e p="AnimatorControllerDs.cs" t="Include" />
+          <e p="AnimatorDS.cs" t="Include" />
+        </e>
+        <e p="Assets" t="Include">
+          <e p="IAsset.cs" t="Include" />
+          <e p="ImageAsset.cs" t="Include" />
+          <e p="SoundAsset.cs" t="Include" />
+          <e p="SpriteSheetAsset.cs" t="Include" />
+        </e>
+        <e p="Camera" t="Include">
+          <e p="CameraDS.cs" t="Include" />
+        </e>
+        <e p="Channel" t="Include">
+          <e p="ChannelDS.cs" t="Include" />
+        </e>
+        <e p="Clip" t="Include">
+          <e p="ClipDS.cs" t="Include" />
+        </e>
+        <e p="CompareInteractivity" t="Include">
+          <e p="CompareComponent.cs" t="Include" />
+        </e>
+        <e p="DragInteractivity" t="Include">
+          <e p="DragInteractivityDS.cs" t="Include" />
+        </e>
+        <e p="DropCondition.cs" t="Include" />
+        <e p="Element" t="Include">
+          <e p="ElementDS.cs" t="Include" />
+        </e>
+        <e p="Enums" t="Include">
+          <e p="ActionType.cs" t="Include" />
+          <e p="ConditionType.cs" t="Include" />
+          <e p="TriggerType.cs" t="Include" />
+        </e>
+        <e p="Graph" t="Include">
+          <e p="Connection.cs" t="Include" />
+          <e p="GenericGraph.cs" t="Include" />
+          <e p="GraphDataStructure.cs" t="Include" />
+          <e p="GraphInfo.cs" t="Include" />
+          <e p="IGraph.cs" t="Include" />
+          <e p="INode.cs" t="Include" />
+          <e p="ITree.cs" t="Include" />
+          <e p="NodeDataStructure.cs" t="Include" />
+          <e p="NodeRelationDataStructure.cs" t="Include" />
+        </e>
+        <e p="IComponent.cs" t="Include" />
+        <e p="Image" t="Include">
+          <e p="ImageDS.cs" t="Include" />
+        </e>
+        <e p="Interactivity" t="Include">
+          <e p="InteractivityDS.cs" t="Include" />
+        </e>
+        <e p="KeyValue" t="Include">
+          <e p="KeyValueDS.cs" t="Include" />
+        </e>
+        <e p="Project" t="Include">
+          <e p="ProjectDS.cs" t="Include" />
+        </e>
+        <e p="Scene" t="Include">
+          <e p="SceneDS.cs" t="Include" />
+        </e>
+        <e p="SceneGate" t="Include">
+          <e p="GateType.cs" t="Include" />
+          <e p="ISceneNode.cs" t="Include" />
+          <e p="SceneGateDS.cs" t="Include" />
+        </e>
+        <e p="SceneNavigationGraph" t="Include">
+          <e p="Graph.cs" t="Include" />
+          <e p="GraphConverter.cs" t="Include" />
+        </e>
+        <e p="Sound" t="Include">
+          <e p="SoundDS.cs" t="Include" />
+        </e>
+        <e p="TapInteractivity" t="Include">
+          <e p="TapInteractivityDS.cs" t="Include" />
+        </e>
+        <e p="TimerInterActivity" t="Include">
+          <e p="TimerInteractivityDS.cs" t="Include" />
+        </e>
+        <e p="Transform" t="Include">
+          <e p="TransformDS.cs" t="Include" />
+        </e>
+        <e p="Variable" t="Include">
+          <e p="VariableDS.cs" t="Include" />
+        </e>
+        <e p="Vector2.cs" t="Include" />
+      </e>
+      <e p="Editor" t="Include">
+        <e p="Utility" t="Include">
+          <e p="AnimationUtility.cs" t="Include" />
+          <e p="TransformUtility.cs" t="Include" />
+        </e>
+      </e>
+      <e p="EditorCommandBuilder" t="Include">
+        <e p="CommitChanges.cs" t="Include" />
+        <e p="EditorCommands.cs" t="Include" />
+        <e p="ICommandBuilder.cs" t="Include" />
+        <e p="SetKey_CommitChanges.cs" t="Include" />
+      </e>
+      <e p="GameEngine" t="Include">
+        <e p="Engine.cs" t="Include" />
+        <e p="EngineState.cs" t="Include" />
+        <e p="GameBehaviour.cs" t="Include" />
+        <e p="IBehaviour.cs" t="Include" />
+        <e p="PortableLoopEngine.cs" t="Include" />
+        <e p="Time.cs" t="Include" />
+      </e>
+      <e p="Graph" t="Include">
+        <e p="ConnectionModel.cs" t="Include" />
+        <e p="Converter" t="Include">
+          <e p="NodeModelsToNodesConverter.cs" t="Include" />
+          <e p="NodeRelationsToPathsConverter.cs" t="Include" />
+          <e p="NormalPathToPathGeometryConverter.cs" t="Include" />
+        </e>
+        <e p="Dialog" t="Include">
+          <e p="NodePickerDialog.xaml" t="Include" />
+          <e p="NodePickerDialog.xaml.cs" t="Include" />
+        </e>
+        <e p="GraphCanvas.xaml" t="Include" />
+        <e p="GraphCanvas.xaml.cs" t="Include" />
+        <e p="GraphCanvasViewModel.cs" t="Include" />
+        <e p="GraphModel.cs" t="Include" />
+        <e p="Model" t="Include">
+          <e p="BindTypes.cs" t="Include" />
+          <e p="ExitNode.cs" t="Include" />
+          <e p="GraphMode.cs" t="Include" />
+          <e p="GraphModel.cs" t="Include" />
+          <e p="NodeContentModel.cs" t="Include" />
+          <e p="NodeModel.cs" t="Include" />
+          <e p="NodePackageModel.cs" t="Include" />
+          <e p="NodeRelationModel.cs" t="Include" />
+          <e p="NodeRelationStatuses.cs" t="Include" />
+        </e>
+        <e p="NodeMetaData.cs" t="Include" />
+        <e p="NodeModel.cs" t="Include" />
+        <e p="UserController" t="Include">
+          <e p="BinderButton.xaml" t="Include" />
+          <e p="BinderButton.xaml.cs" t="Include" />
+          <e p="GraphWorkSpace.xaml" t="Include" />
+          <e p="GraphWorkSpace.xaml.cs" t="Include" />
+          <e p="Nodes" t="Include">
+            <e p="Node.xaml" t="Include" />
+            <e p="Node.xaml.cs" t="Include" />
+          </e>
+          <e p="Paths" t="Include">
+            <e p="NormalPath.xaml" t="Include" />
+            <e p="NormalPath.xaml.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ViewModel" t="Include">
+          <e p="GraphViewModel.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Helpers" t="Include">
+        <e p="ActionHelper.cs" t="Include" />
+        <e p="ChooseFromList.xaml" t="Include" />
+        <e p="ChooseFromList.xaml.cs" t="Include" />
+        <e p="CommandDelegate.cs" t="Include" />
+        <e p="DataContextProxy.cs" t="Include" />
+        <e p="FastCommandDelegate.cs" t="Include" />
+        <e p="FastImplementedModel.cs" t="Include" />
+        <e p="ffmpeg.exe" t="Include" />
+        <e p="FloatToIntDictionary.cs" t="Include" />
+        <e p="ImageHelper.cs" t="Include" />
+        <e p="ImageSequencePlayer.cs" t="Include" />
+        <e p="ImageSlicer.cs" t="Include" />
+        <e p="InputField.xaml" t="Include" />
+        <e p="InputField.xaml.cs" t="Include" />
+        <e p="KeyFrameHelper.cs" t="Include" />
+        <e p="Logger.cs" t="Include" />
+        <e p="Mapper.cs" t="Include" />
+        <e p="Mathf.cs" t="Include" />
+        <e p="NotifyPropertyChange.cs" t="Include" />
+        <e p="OpenFileDialogue.cs" t="Include" />
+        <e p="SelectionGroup.cs" t="Include" />
+        <e p="SoundConverter.cs" t="Include" />
+        <e p="SpriteSheetPlayer.cs" t="Include" />
+        <e p="StateHolderImplementException.cs" t="Include" />
+        <e p="Stream" t="Include">
+          <e p="BinaryStream.cs" t="Include" />
+          <e p="IStream.cs" t="Include" />
+          <e p="JsonStream.cs" t="Include" />
+        </e>
+        <e p="UIElementHelper.cs" t="Include" />
+        <e p="Utils.cs" t="Include" />
+        <e p="VersionConverters" t="Include">
+          <e p="VersionConverter.cs" t="Include" />
+        </e>
+        <e p="VideoBuilder.cs" t="Include" />
+        <e p="WindowFactory.cs" t="Include" />
+        <e p="Zip.cs" t="Include" />
+      </e>
+      <e p="Icon.ico" t="Include" />
+      <e p="Images" t="Include">
+        <e p="None.png" t="Include" />
+      </e>
+      <e p="Info.txt" t="Include" />
+      <e p="Inspector" t="Include">
+        <e p="HideInInspector.cs" t="Include" />
+        <e p="InspectorView.xaml" t="Include" />
+        <e p="InspectorView.xaml.cs" t="Include" />
+        <e p="InspectorViewModel.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="BaseProperty.cs" t="Include" />
+          <e p="IntProperty.cs" t="Include" />
+          <e p="IProperty.cs" t="Include" />
+          <e p="IPropertyFactory.cs" t="Include" />
+          <e p="PropertyFactory.cs" t="Include" />
+        </e>
+        <e p="test.cs" t="Include" />
+        <e p="TestWin.xaml" t="Include" />
+        <e p="TestWin.xaml.cs" t="Include" />
+        <e p="Views" t="Include">
+          <e p="IntField.xaml" t="Include" />
+          <e p="IntField.xaml.cs" t="Include" />
+        </e>
+      </e>
+      <e p="MainWindow.xaml" t="Include" />
+      <e p="MainWindow.xaml.cs" t="Include" />
+      <e p="Messages" t="Include">
+        <e p="ErrorMessage.cs" t="Include" />
+        <e p="IMessage.cs" t="Include" />
+        <e p="InfoMessage.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="Actions" t="Include">
+          <e p="ChangeImageAction.cs" t="Include" />
+          <e p="ExitSceneAction.cs" t="Include" />
+          <e p="IStop.cs" t="Include" />
+          <e p="PlayAnimationAction.cs" t="Include" />
+          <e p="PlaySoundAction.cs" t="Include" />
+          <e p="SetVariableAction.cs" t="Include" />
+          <e p="SetVisibilityAction.cs" t="Include" />
+          <e p="TransformAction.cs" t="Include" />
+        </e>
+        <e p="AnimatorEvent.cs" t="Include" />
+        <e p="Api" t="Include">
+          <e p="StaticPagesData.cs" t="Include" />
+          <e p="StaticPagesResponse.cs" t="Include" />
+        </e>
+        <e p="AssetCollectionModel.cs" t="Include" />
+        <e p="AssetManagementModel.cs" t="Include" />
+        <e p="AssetModels" t="Include">
+          <e p="AssetModel.cs" t="Include" />
+          <e p="DrawableAssetModel.cs" t="Include" />
+          <e p="PrefabAsset.cs" t="Include" />
+          <e p="SoundAssetModel.cs" t="Include" />
+          <e p="SpriteSheetAssetModel.cs" t="Include" />
+        </e>
+        <e p="AssetsController.cs" t="Include" />
+        <e p="AssetTypes.cs" t="Include" />
+        <e p="BackgroundModel.cs" t="Include" />
+        <e p="Builder" t="Include">
+          <e p="CameraBuilder.cs" t="Include" />
+          <e p="CharacterBuilder.cs" t="Include" />
+        </e>
+        <e p="ChannelListModel.cs" t="Include" />
+        <e p="CharacterModel.cs" t="Include" />
+        <e p="Components" t="Include">
+          <e p="Animator.cs" t="Include" />
+          <e p="AudioSource.cs" t="Include" />
+          <e p="Camera.cs" t="Include" />
+          <e p="Component.cs" t="Include" />
+          <e p="ImageRenderer.cs" t="Include" />
+          <e p="Interactivities" t="Include">
+            <e p="CompareValues.cs" t="Include" />
+            <e p="Drag.cs" t="Include" />
+            <e p="DropCondition.cs" t="Include" />
+            <e p="Tap.cs" t="Include" />
+          </e>
+          <e p="InterActivity.cs" t="Include" />
+          <e p="Transform.cs" t="Include" />
+        </e>
+        <e p="CustomImage.cs" t="Include" />
+        <e p="Editor" t="Include">
+          <e p="PlayMode.cs" t="Include" />
+        </e>
+        <e p="EditorModel.cs" t="Include" />
+        <e p="ElementModel.cs" t="Include" />
+        <e p="FileTypes.cs" t="Include" />
+        <e p="FolderModel.cs" t="Include" />
+        <e p="HandlerType.cs" t="Include" />
+        <e p="IBehaviour.cs" t="Include" />
+        <e p="ImageChannelModel.cs" t="Include" />
+        <e p="ImageSequenceLoaderModel.cs" t="Include" />
+        <e p="Input" t="Include">
+          <e p="Enum" t="Include">
+            <e p="MouseEventType.cs" t="Include" />
+          </e>
+          <e p="Interface" t="Include">
+            <e p="IMouseDown.cs" t="Include" />
+            <e p="IMouseEvent.cs" t="Include" />
+            <e p="IMouseMove.cs" t="Include" />
+            <e p="IMouseUp.cs" t="Include" />
+          </e>
+          <e p="MouseEvent.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="IAction.cs" t="Include" />
+          <e p="IAssetModelCollector.cs" t="Include" />
+          <e p="IBound.cs" t="Include" />
+          <e p="IChannel.cs" t="Include" />
+          <e p="ICloneable.cs" t="Include" />
+          <e p="IComponentController.cs" t="Include" />
+          <e p="IDrawable.cs" t="Include" />
+          <e p="IHierarchyNode.cs" t="Include" />
+          <e p="IOrder.cs" t="Include" />
+          <e p="IScenePlayer.cs" t="Include" />
+          <e p="IViewport.cs" t="Include" />
+        </e>
+        <e p="IntVariableModel.cs" t="Include" />
+        <e p="LoopModel.cs" t="Include" />
+        <e p="PackageCollectionModel.cs" t="Include" />
+        <e p="PackageModel.cs" t="Include" />
+        <e p="Paths.cs" t="Include" />
+        <e p="PositionModel.cs" t="Include" />
+        <e p="ProjectModel.cs" t="Include" />
+        <e p="PSVModel.cs" t="Include" />
+        <e p="RecorderModel.cs" t="Include" />
+        <e p="SceneModel.cs" t="Include" />
+        <e p="SelectableItem.cs" t="Include" />
+        <e p="Software" t="Include">
+          <e p="CurrentProject.cs" t="Include" />
+          <e p="ISetting.cs" t="Include" />
+          <e p="SaveSetting.cs" t="Include" />
+          <e p="Setting.cs" t="Include" />
+          <e p="SoftwareModel.cs" t="Include" />
+        </e>
+        <e p="SoundChannelModel.cs" t="Include" />
+        <e p="SoundModel.cs" t="Include" />
+        <e p="SoundPlayerModel.cs" t="Include" />
+        <e p="SpriteDetail.cs" t="Include" />
+        <e p="SpriteSheetMetaDataModel.cs" t="Include" />
+        <e p="StoryModel.cs" t="Include" />
+        <e p="StoryObject.cs" t="Include" />
+        <e p="TransformHierarchy.cs" t="Include" />
+        <e p="Utility" t="Include">
+          <e p="TransformUtility.cs" t="Include" />
+        </e>
+        <e p="Vector2.cs" t="Include" />
+      </e>
+      <e p="ModelToDataStructConverter" t="Include">
+        <e p="ActionConverter" t="Include">
+          <e p="ActionConverterTemplate.cs" t="Include" />
+          <e p="Version1" t="Include">
+            <e p="ActionConverterV1.cs" t="Include" />
+          </e>
+        </e>
+        <e p="AssetConverter" t="Include">
+          <e p="AssetConverter.cs" t="Include" />
+          <e p="DirectlyConverter" t="Include">
+            <e p="AssetConverter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ChannelConverter" t="Include">
+          <e p="ChannelConverterTemplate.cs" t="Include" />
+          <e p="Version1" t="Include">
+            <e p="ChannelConverter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ClipConverter" t="Include">
+          <e p="ClipConverterTemplate.cs" t="Include" />
+          <e p="Version1" t="Include">
+            <e p="ClipConverter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ComponentConverter" t="Include">
+          <e p="AnimatorConverter" t="Include">
+            <e p="AnimatorConverterTemplate.cs" t="Include" />
+            <e p="Version1" t="Include">
+              <e p="AnimatorConverter.cs" t="Include" />
+            </e>
+          </e>
+          <e p="CameraConverter" t="Include">
+            <e p="CameraConverterTemplate.cs" t="Include" />
+            <e p="Version1" t="Include">
+              <e p="CameraConverter.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ComponentConverterTemplate.cs" t="Include" />
+          <e p="ImageConverter" t="Include">
+            <e p="ImageConverterTemplate.cs" t="Include" />
+            <e p="Version1" t="Include">
+              <e p="ImageConverter.cs" t="Include" />
+            </e>
+          </e>
+          <e p="InteractivityConverter" t="Include">
+            <e p="InteractivityConverterTemplate.cs" t="Include" />
+            <e p="Version1" t="Include">
+              <e p="InterActivityConverterV1.cs" t="Include" />
+            </e>
+          </e>
+          <e p="SoundConverter" t="Include">
+            <e p="SoundConverterTemplate.cs" t="Include" />
+            <e p="Version1" t="Include">
+              <e p="SoundConverter.cs" t="Include" />
+            </e>
+          </e>
+          <e p="TransformConverter" t="Include">
+            <e p="TransformConverterTemplate.cs" t="Include" />
+            <e p="Version1" t="Include">
+              <e p="TransformConverter.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Version1" t="Include">
+            <e p="ComponentConverter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ConversionSettings.cs" t="Include" />
+        <e p="ConverterTemplate.cs" t="Include" />
+        <e p="Dynamic" t="Include">
+          <e p="DynamicObjectConverter.cs" t="Include" />
+          <e p="IDynamicConverter.cs" t="Include" />
+        </e>
+        <e p="ElementConverter" t="Include">
+          <e p="ElementConverterTemplate.cs" t="Include" />
+          <e p="Version1" t="Include">
+            <e p="ElementConverter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="GraphConverter" t="Include">
+          <e p="GraphConverterTemplate.cs" t="Include" />
+          <e p="Version1" t="Include">
+            <e p="GraphConverter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="KeyValueConverter" t="Include">
+          <e p="KeyValueConverterTemplate.cs" t="Include" />
+          <e p="Version1" t="Include">
+            <e p="KeyValueConverter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="ObjectConverter.cs" t="Include" />
+        <e p="ProjectConverter" t="Include">
+          <e p="OldConverter" t="Include">
+            <e p="OldProjectsConverter.cs" t="Include" />
+          </e>
+          <e p="ProjectConverterTemplate.cs" t="Include" />
+          <e p="Version1" t="Include">
+            <e p="ProjectConverter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="SceneConverter" t="Include">
+          <e p="SceneConverterTemplate.cs" t="Include" />
+          <e p="Version1" t="Include">
+            <e p="SceneConverter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="VariableConverter" t="Include">
+          <e p="VariableConverterTemplate.cs" t="Include" />
+          <e p="Version1" t="Include">
+            <e p="VariableConverter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Vector2Converter.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="App.g.cs" t="Include" />
+          <e p="Assembly-CSharp_Content.g.cs" t="Include" />
+          <e p="GeneratedInternalTypeHelper.g.cs" t="Include" />
+          <e p="Graph" t="Include">
+            <e p="Dialog" t="Include">
+              <e p="NodePickerDialog.g.cs" t="Include" />
+            </e>
+            <e p="GraphCanvas.g.cs" t="Include" />
+            <e p="UserController" t="Include">
+              <e p="BinderButton.g.cs" t="Include" />
+              <e p="GraphWorkSpace.g.cs" t="Include" />
+              <e p="Nodes" t="Include">
+                <e p="Node.g.cs" t="Include" />
+              </e>
+              <e p="Paths" t="Include">
+                <e p="NormalPath.g.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Helpers" t="Include">
+            <e p="ChooseFromList.g.cs" t="Include" />
+            <e p="InputField.g.cs" t="Include" />
+          </e>
+          <e p="Inspector" t="Include">
+            <e p="InspectorView.g.cs" t="Include" />
+            <e p="TestWin.g.cs" t="Include" />
+            <e p="Views" t="Include">
+              <e p="IntField.g.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Timeline" t="Include">
+            <e p="User Controllers" t="Include">
+              <e p="Timeline.g.cs" t="Include" />
+            </e>
+          </e>
+          <e p="User Controllers" t="Include">
+            <e p="StoryMakerPanel.g.cs" t="Include" />
+            <e p="TermConditionPanel.g.cs" t="Include" />
+          </e>
+          <e p="Views" t="Include">
+            <e p="Components" t="Include">
+              <e p="Actions" t="Include">
+                <e p="ChangeImageActionView.g.cs" t="Include" />
+                <e p="ExitSceneActionView.g.cs" t="Include" />
+                <e p="PlayAnimationActionView.g.cs" t="Include" />
+                <e p="PlaySoundActionView.g.cs" t="Include" />
+                <e p="SetVariableActionView.g.cs" t="Include" />
+                <e p="SetVisibilityActionView.g.cs" t="Include" />
+                <e p="TransformActionView.g.cs" t="Include" />
+              </e>
+              <e p="AnimatorComponentView.g.cs" t="Include" />
+              <e p="CameraComponentView.g.cs" t="Include" />
+              <e p="ComponentContainer.g.cs" t="Include" />
+              <e p="ImageComponentView.g.cs" t="Include" />
+              <e p="Interactivities" t="Include">
+                <e p="ActionList.g.cs" t="Include" />
+                <e p="CompareValuesView.g.cs" t="Include" />
+                <e p="DropConditionView.g.cs" t="Include" />
+                <e p="InteractivityView.g.cs" t="Include" />
+              </e>
+              <e p="SoundComponentView.g.cs" t="Include" />
+              <e p="TransformComponentView.g.cs" t="Include" />
+            </e>
+            <e p="CustomView" t="Include">
+              <e p="EditableTextBox.g.cs" t="Include" />
+            </e>
+            <e p="Dialogs" t="Include">
+              <e p="DependencyChangerDialog.g.cs" t="Include" />
+              <e p="FolderManagerDialog.g.cs" t="Include" />
+              <e p="InputDialog.g.cs" t="Include" />
+              <e p="LoopDialogue.g.cs" t="Include" />
+              <e p="SettingDialog.g.cs" t="Include" />
+              <e p="SpriteSheetWizard.g.cs" t="Include" />
+            </e>
+            <e p="DrawableComponent" t="Include">
+              <e p="CameraComponentUserControl.g.cs" t="Include" />
+              <e p="ImageComponentUserControl.g.cs" t="Include" />
+              <e p="StoryObjectUserControl.g.cs" t="Include" />
+            </e>
+            <e p="Editor.g.cs" t="Include" />
+            <e p="EditorViewPort.g.cs" t="Include" />
+            <e p="FolderManager.g.cs" t="Include" />
+            <e p="Hierarchy.g.cs" t="Include" />
+            <e p="Inspector.g.cs" t="Include" />
+            <e p="LeftSideMenu.g.cs" t="Include" />
+            <e p="LoginWindow.g.cs" t="Include" />
+            <e p="MainWindow.g.cs" t="Include" />
+            <e p="RenderDialogueView.g.cs" t="Include" />
+            <e p="SceneGatesManager.g.cs" t="Include" />
+            <e p="ScenesManager.g.cs" t="Include" />
+            <e p="SplashScreen.g.cs" t="Include" />
+            <e p="StoryViewPort.g.cs" t="Include" />
+            <e p="UserControls" t="Include">
+              <e p="VariableView.g.cs" t="Include" />
+              <e p="Vector2View.g.cs" t="Include" />
+            </e>
+            <e p="Utilz" t="Include">
+              <e p="CustomTextBox.g.cs" t="Include" />
+              <e p="EditableTextBlock.g.cs" t="Include" />
+              <e p="HandlerControl.g.cs" t="Include" />
+            </e>
+            <e p="VariableManager.g.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="packages.config" t="Include" />
+      <e p="PersonalUiElement" t="Include">
+        <e p="PersonalCheckBox.cs" t="Include" />
+        <e p="PersonalTextBox.cs" t="Include" />
+      </e>
+      <e p="Properties" t="Include">
+        <e p="Annotations.cs" t="Include" />
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="Resources.Designer.cs" t="Include" />
+        <e p="Resources.resx" t="Include" />
+        <e p="Settings.Designer.cs" t="Include" />
+        <e p="Settings.settings" t="Include" />
+      </e>
+      <e p="Resources" t="Include">
+        <e p="AudioFile.png" t="Include" />
+        <e p="Create.png" t="Include" />
+        <e p="Cursor" t="Include" />
+        <e p="Fonts" t="Include">
+          <e p="Shabnam Bold.ttf" t="Include" />
+          <e p="Shabnam.ttf" t="Include" />
+          <e p="YekanBakh-Bold.ttf" t="Include" />
+          <e p="YekanBakh-Fat.ttf" t="Include" />
+          <e p="YekanBakh-Heavy.ttf" t="Include" />
+          <e p="YekanBakh-Medium.ttf" t="Include" />
+          <e p="YekanBakh-Regular.ttf" t="Include" />
+        </e>
+        <e p="icon.png" t="Include" />
+        <e p="Icons" t="Include">
+          <e p="add_btn.png" t="Include" />
+          <e p="Animation.png" t="Include" />
+          <e p="Black Box.png" t="Include" />
+          <e p="Book.png" t="Include" />
+          <e p="button_background.png" t="Include" />
+          <e p="Character.png" t="Include" />
+          <e p="check.png" t="Include" />
+          <e p="close_btn.png" t="Include" />
+          <e p="create_package.png" t="Include" />
+          <e p="Game.png" t="Include" />
+          <e p="GamePack.png" t="Include" />
+          <e p="icon.png" t="Include" />
+          <e p="input_line.png" t="Include" />
+          <e p="Main" t="Include">
+            <e p="Background.png" t="Include" />
+            <e p="Camera.png" t="Include" />
+            <e p="Character.png" t="Include" />
+            <e p="Delete.png" t="Include" />
+            <e p="Layer.png" t="Include" />
+            <e p="Menu.png" t="Include" />
+            <e p="Package.png" t="Include" />
+          </e>
+          <e p="main_background.png" t="Include" />
+          <e p="PackageIcon.jpg" t="Include" />
+          <e p="small_logo.png" t="Include" />
+          <e p="Sound.png" t="Include" />
+          <e p="Story Icon.png" t="Include" />
+          <e p="uncheck.png" t="Include" />
+          <e p="upload.png" t="Include" />
+          <e p="welcome.jpeg" t="Include" />
+        </e>
+        <e p="Icons.Designer.cs" t="Include" />
+        <e p="Icons.resx" t="Include" />
+        <e p="None.png" t="Include" />
+        <e p="Splash screen.png" t="Include" />
+        <e p="StringContainer.xaml" t="Include" />
+        <e p="Temp" t="Include">
+          <e p="avatar.jpg" t="Include" />
+        </e>
+        <e p="Unknown.png" t="Include" />
+      </e>
+      <e p="small_logo.ico" t="Include" />
+      <e p="SpriteSheet" t="Include">
+        <e p="Dialogs" t="Include">
+          <e p="InputSpriteSheetDialog.xaml" t="Include" />
+          <e p="InputSpriteSheetDialog.xaml.cs" t="Include" />
+        </e>
+        <e p="Model" t="Include">
+          <e p="SpriteSheet.cs" t="Include" />
+        </e>
+        <e p="ViewModel" t="Include">
+          <e p="SpriteSheetViewModel.cs" t="Include" />
+        </e>
+        <e p="Views" t="Include">
+          <e p="SpriteSheetViewer.xaml" t="Include" />
+          <e p="SpriteSheetViewer.xaml.cs" t="Include" />
+        </e>
+      </e>
+      <e p="StartWindow.xaml" t="Include" />
+      <e p="StartWindow.xaml.cs" t="Include" />
+      <e p="StoryMaker Pro.csproj" t="IncludeRecursive" />
+      <e p="StoryMaker.csproj" t="IncludeRecursive" />
+      <e p="StoryMaker_BACKUP_552.csproj" t="IncludeRecursive" />
+      <e p="StoryMaker_BACKUP_610.csproj" t="IncludeRecursive" />
+      <e p="StoryMaker_BASE_552.csproj" t="IncludeRecursive" />
+      <e p="StoryMaker_BASE_610.csproj" t="IncludeRecursive" />
+      <e p="StoryMaker_LOCAL_552.csproj" t="IncludeRecursive" />
+      <e p="StoryMaker_LOCAL_610.csproj" t="IncludeRecursive" />
+      <e p="StoryMaker_REMOTE_552.csproj" t="IncludeRecursive" />
+      <e p="StoryMaker_REMOTE_610.csproj" t="IncludeRecursive" />
+      <e p="StoryMaker_TemporaryKey.pfx" t="Include" />
+      <e p="Styles" t="Include">
+        <e p="Styles.xaml" t="Include" />
+      </e>
+      <e p="TestWindow.xaml" t="Include" />
+      <e p="TestWindow.xaml.cs" t="Include" />
+      <e p="TextMap" t="Include">
+        <e p="ActionMap.cs" t="Include" />
+      </e>
+      <e p="Themes" t="Include">
+        <e p="Generic.xaml" t="Include" />
+      </e>
+      <e p="Timeline" t="Include">
+        <e p="Attribute" t="Include">
+          <e p="NonRecordable.cs" t="Include" />
+        </e>
+        <e p="Class" t="Include">
+          <e p="ChannelItemsControl.cs" t="Include" />
+          <e p="ChannelListBox.cs" t="Include" />
+          <e p="HorizontalGridLine.cs" t="Include" />
+          <e p="TimelineKey.cs" t="Include" />
+        </e>
+        <e p="Helper" t="Include">
+          <e p="DelegateCommand.cs" t="Include" />
+          <e p="IReadOnlyMap.cs" t="Include" />
+          <e p="KeyChangedArg.cs" t="Include" />
+          <e p="KeyFrameHelper.cs" t="Include" />
+          <e p="Map.cs" t="Include" />
+        </e>
+        <e p="Model" t="Include">
+          <e p="AnimatorController.cs" t="Include" />
+          <e p="Channel.cs" t="Include" />
+          <e p="ChannelAddress.cs" t="Include" />
+          <e p="Channels.cs" t="Include" />
+          <e p="Clip.cs" t="Include" />
+          <e p="Interfaces" t="Include">
+            <e p="IKeyFinder.cs" t="Include" />
+            <e p="IRecordStatus.cs" t="Include" />
+            <e p="IUpdatable.cs" t="Include" />
+            <e p="IValueAtTime.cs" t="Include" />
+          </e>
+          <e p="KeyValue.cs" t="Include" />
+          <e p="KeyValues.cs" t="Include" />
+          <e p="RecordStatus.cs" t="Include" />
+          <e p="Status.cs" t="Include" />
+          <e p="TimeLine.cs" t="Include" />
+          <e p="TimelineModel.cs" t="Include" />
+        </e>
+        <e p="User Controllers" t="Include">
+          <e p="Timeline.xaml" t="Include" />
+          <e p="Timeline.xaml.cs" t="Include" />
+        </e>
+        <e p="ViewModel" t="Include">
+          <e p="TimelineViewModel.cs" t="Include" />
+        </e>
+      </e>
+      <e p="User Controllers" t="Include">
+        <e p="IteamViewer.xaml" t="Include" />
+        <e p="IteamViewer.xaml.cs" t="Include" />
+        <e p="NewPackagePanel.xaml" t="Include" />
+        <e p="NewPackagePanel.xaml.cs" t="Include" />
+        <e p="StoryMakerPanel.xaml" t="Include" />
+        <e p="StoryMakerPanel.xaml.cs" t="Include" />
+        <e p="TermConditionPanel.xaml" t="Include" />
+        <e p="TermConditionPanel.xaml.cs" t="Include" />
+      </e>
+      <e p="VersionConverter" t="Include">
+        <e p="AssetConverter.cs" t="Include" />
+        <e p="IAssetConverter.cs" t="Include" />
+        <e p="IProjectProvider.cs" t="Include" />
+        <e p="IVersionProvider.cs" t="Include" />
+        <e p="JSONProjectProvider.cs" t="Include" />
+        <e p="OldVersionToversion1Converter" t="Include">
+          <e p="ElementConverter.cs" t="Include" />
+          <e p="ElementConverterWithAnimatorComponent.cs" t="Include" />
+          <e p="Helpers" t="Include">
+            <e p="ChannelBuilder.cs" t="Include" />
+          </e>
+          <e p="ImageConverter.cs" t="Include" />
+          <e p="ISceneConverter.cs" t="Include" />
+          <e p="MultiAnimatorSceneConverter.cs" t="Include" />
+          <e p="OldProjectProvider.cs" t="Include" />
+          <e p="ProjectConverter.cs" t="Include" />
+          <e p="SceneConverter.cs" t="Include" />
+          <e p="TransformConverter.cs" t="Include" />
+        </e>
+        <e p="ProjectProvider.cs" t="Include" />
+        <e p="ProjectProviderFactory.cs" t="Include" />
+        <e p="VersionProvider.cs" t="Include" />
+      </e>
+      <e p="ViewModels" t="Include">
+        <e p="AssetCollectionViewModel.cs" t="Include" />
+        <e p="AssetCollectionViewModel.cs~RF1a123068.TMP" t="Include" />
+        <e p="Components" t="Include">
+          <e p="ActionListViewModel.cs" t="Include" />
+          <e p="CompareValuesViewModel.cs" t="Include" />
+          <e p="DropConditionViewModel.cs" t="Include" />
+        </e>
+        <e p="Dialogs" t="Include">
+          <e p="RenderDialogueViewModel.cs" t="Include" />
+          <e p="SpriteSheetWizardViewModel.cs" t="Include" />
+        </e>
+        <e p="EditorViewModel.cs" t="Include" />
+        <e p="FolderManagerViewModel.cs" t="Include" />
+        <e p="HierarchyViewModel.cs" t="Include" />
+        <e p="InspectorViewModel.cs" t="Include" />
+        <e p="InterActivityViewModel.cs" t="Include" />
+        <e p="LeftSideMenuViewModel.cs" t="Include" />
+        <e p="MainInjector.cs" t="Include" />
+        <e p="PackageCollectionViewModel.cs" t="Include" />
+        <e p="PackageManagementViewModel.cs" t="Include" />
+        <e p="RecorderViewModel.cs" t="Include" />
+        <e p="SceneGatesManagerViewModel.cs" t="Include" />
+        <e p="ScenesManagerViewModel.cs" t="Include" />
+        <e p="SoftwareViewModel.cs" t="Include" />
+        <e p="SubViews" t="Include">
+          <e p="SetVariableActionViewModel.cs" t="Include" />
+        </e>
+        <e p="VariableManagerViewModel.cs" t="Include" />
+      </e>
+      <e p="Views" t="Include">
+        <e p="AssetManagement.xaml" t="Include" />
+        <e p="AssetManagement.xaml.cs" t="Include" />
+        <e p="Components" t="Include">
+          <e p="Actions" t="Include">
+            <e p="ChangeImageActionView.xaml" t="Include" />
+            <e p="ChangeImageActionView.xaml.cs" t="Include" />
+            <e p="ExitSceneActionView.xaml" t="Include" />
+            <e p="ExitSceneActionView.xaml.cs" t="Include" />
+            <e p="PlayAnimationActionView.xaml" t="Include" />
+            <e p="PlayAnimationActionView.xaml.cs" t="Include" />
+            <e p="PlaySoundActionView.xaml" t="Include" />
+            <e p="PlaySoundActionView.xaml.cs" t="Include" />
+            <e p="SetVariableActionView.xaml" t="Include" />
+            <e p="SetVariableActionView.xaml.cs" t="Include" />
+            <e p="SetVisibilityActionView.xaml" t="Include" />
+            <e p="SetVisibilityActionView.xaml.cs" t="Include" />
+            <e p="TransformActionView.xaml" t="Include" />
+            <e p="TransformActionView.xaml.cs" t="Include" />
+          </e>
+          <e p="AnimatorComponentView.xaml" t="Include" />
+          <e p="AnimatorComponentView.xaml.cs" t="Include" />
+          <e p="CameraComponentView.xaml" t="Include" />
+          <e p="CameraComponentView.xaml.cs" t="Include" />
+          <e p="ComponentContainer.xaml" t="Include" />
+          <e p="ComponentContainer.xaml.cs" t="Include" />
+          <e p="ImageComponent.xaml" t="Include" />
+          <e p="ImageComponent.xaml.cs" t="Include" />
+          <e p="ImageComponentView.xaml" t="Include" />
+          <e p="ImageComponentView.xaml.cs" t="Include" />
+          <e p="Interactivities" t="Include">
+            <e p="ActionList.xaml" t="Include" />
+            <e p="ActionList.xaml.cs" t="Include" />
+            <e p="CompareValuesView.xaml" t="Include" />
+            <e p="CompareValuesView.xaml.cs" t="Include" />
+            <e p="DropConditionView.xaml" t="Include" />
+            <e p="DropConditionView.xaml.cs" t="Include" />
+            <e p="InteractivityView.xaml" t="Include" />
+            <e p="InteractivityView.xaml.cs" t="Include" />
+          </e>
+          <e p="InterActivity.xaml" t="Include" />
+          <e p="InterActivity.xaml.cs" t="Include" />
+          <e p="PsvComponent.xaml" t="Include" />
+          <e p="PsvComponent.xaml.cs" t="Include" />
+          <e p="SoundComponent.xaml" t="Include" />
+          <e p="SoundComponent.xaml.cs" t="Include" />
+          <e p="SoundComponentView.xaml" t="Include" />
+          <e p="SoundComponentView.xaml.cs" t="Include" />
+          <e p="TransformComponentView.xaml" t="Include" />
+          <e p="TransformComponentView.xaml.cs" t="Include" />
+        </e>
+        <e p="Create_EditStory.xaml" t="Include" />
+        <e p="Create_EditStory.xaml.cs" t="Include" />
+        <e p="CustomView" t="Include">
+          <e p="EditableTextBox.xaml" t="Include" />
+          <e p="EditableTextBox.xaml.cs" t="Include" />
+          <e p="ImageRadioButton.cs" t="Include" />
+          <e p="TextRadioButton.cs" t="Include" />
+        </e>
+        <e p="Dialogs" t="Include">
+          <e p="DependencyChangerDialog.xaml" t="Include" />
+          <e p="DependencyChangerDialog.xaml.cs" t="Include" />
+          <e p="FolderManagerDialog.xaml" t="Include" />
+          <e p="FolderManagerDialog.xaml.cs" t="Include" />
+          <e p="InputDialog.xaml" t="Include" />
+          <e p="InputDialog.xaml.cs" t="Include" />
+          <e p="LoopDialogue.xaml" t="Include" />
+          <e p="LoopDialogue.xaml.cs" t="Include" />
+          <e p="SettingDialog.xaml" t="Include" />
+          <e p="SettingDialog.xaml.cs" t="Include" />
+          <e p="SpriteSheetWizard.xaml" t="Include" />
+          <e p="SpriteSheetWizard.xaml.cs" t="Include" />
+        </e>
+        <e p="DrawableComponent" t="Include">
+          <e p="CameraComponentUserControl.xaml" t="Include" />
+          <e p="CameraComponentUserControl.xaml.cs" t="Include" />
+          <e p="ImageComponentUserControl.xaml" t="Include" />
+          <e p="ImageComponentUserControl.xaml.cs" t="Include" />
+          <e p="StoryObjectUserControl.xaml" t="Include" />
+          <e p="StoryObjectUserControl.xaml.cs" t="Include" />
+        </e>
+        <e p="Editor.xaml" t="Include" />
+        <e p="Editor.xaml.cs" t="Include" />
+        <e p="EditorViewPort.xaml" t="Include" />
+        <e p="EditorViewPort.xaml.cs" t="Include" />
+        <e p="FolderManager.xaml" t="Include" />
+        <e p="FolderManager.xaml.cs" t="Include" />
+        <e p="Hierarchy.xaml" t="Include" />
+        <e p="Hierarchy.xaml.cs" t="Include" />
+        <e p="Inspector.xaml" t="Include" />
+        <e p="Inspector.xaml.cs" t="Include" />
+        <e p="LeftSideMenu.xaml" t="Include" />
+        <e p="LeftSideMenu.xaml.cs" t="Include" />
+        <e p="LoginWindow.xaml" t="Include" />
+        <e p="LoginWindow.xaml.cs" t="Include" />
+        <e p="MainWindow.xaml" t="Include" />
+        <e p="MainWindow.xaml.cs" t="Include" />
+        <e p="PackageAssets.xaml" t="Include" />
+        <e p="PackageAssets.xaml.cs" t="Include" />
+        <e p="PackageCollection.xaml" t="Include" />
+        <e p="PackageCollection.xaml.cs" t="Include" />
+        <e p="PackageManagement.xaml" t="Include" />
+        <e p="PackageManagement.xaml.cs" t="Include" />
+        <e p="RenderDialogueView.xaml" t="Include" />
+        <e p="RenderDialogueView.xaml.cs" t="Include" />
+        <e p="SceneGatesManager.xaml" t="Include" />
+        <e p="SceneGatesManager.xaml.cs" t="Include" />
+        <e p="ScenesManager.xaml" t="Include" />
+        <e p="ScenesManager.xaml.cs" t="Include" />
+        <e p="SplashScreen.xaml" t="Include" />
+        <e p="SplashScreen.xaml.cs" t="Include" />
+        <e p="StartMainWindow.xaml" t="Include" />
+        <e p="StartMainWindow.xaml.cs" t="Include" />
+        <e p="StoryViewPort.xaml" t="Include" />
+        <e p="StoryViewPort.xaml.cs" t="Include" />
+        <e p="UserControls" t="Include">
+          <e p="VariableView.xaml" t="Include" />
+          <e p="VariableView.xaml.cs" t="Include" />
+          <e p="Vector2View.xaml" t="Include" />
+          <e p="Vector2View.xaml.cs" t="Include" />
+        </e>
+        <e p="Utilz" t="Include">
+          <e p="CustomTextBox.xaml" t="Include" />
+          <e p="CustomTextBox.xaml.cs" t="Include" />
+          <e p="DraggableControl.cs" t="Include" />
+          <e p="EditableTextBlock.xaml" t="Include" />
+          <e p="EditableTextBlock.xaml.cs" t="Include" />
+          <e p="Element.cs" t="Include" />
+          <e p="HandlerControl.xaml" t="Include" />
+          <e p="HandlerControl.xaml.cs" t="Include" />
+        </e>
+        <e p="VariableManager.xaml" t="Include" />
+        <e p="VariableManager.xaml.cs" t="Include" />
+        <e p="ViewPort.xaml" t="Include" />
+        <e p="ViewPort.xaml.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

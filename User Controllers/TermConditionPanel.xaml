@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="StoryMaker.User_Controllers.TermConditionPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:StoryMaker.User_Controllers"
+             mc:Ignorable="d" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             Loaded="UserControl_Loaded"
+            d:DesignHeight="720" d:DesignWidth="1280" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" Background="{DynamicResource MainColor-Background}">
+    <Grid>
+        
+        <StackPanel x:Name="terms_progressbar" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <ProgressBar Style="{StaticResource MaterialDesignCircularProgressBar}"
+                         Value="50"
+                         Width="100"
+                         Height="100"
+                         IsIndeterminate="True"
+                         x:Name="IndeterminateToDeterminateCircularProgress" Cursor="None"/>
+        </StackPanel>
+
+        <StackPanel x:Name="terms_content_panel" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Hidden">
+            <Image DockPanel.Dock="Top" Source="/Resources/Icons/icon.png" Width="650" Height="250" Margin="0,0,10,0"/>
+            <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="White" Content="قـــــصه ســــاز " Margin="10,0,0,0" FontFamily="Shabnam" FontSize="50" FontWeight="Bold"/>
+            <TextBlock x:Name="terms_desc" TextWrapping="Wrap" Foreground="White" Margin="90" FontFamily="Shabnam" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" TextAlignment="Justify" FontSize="20" Opacity="0.5" />
+        </StackPanel>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="StoryMaker.Inspector.InspectorView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:StoryMaker.Inspector"
+             xmlns:models="clr-namespace:StoryMaker.Inspector.Models"
+             xmlns:views="clr-namespace:StoryMaker.Inspector.Views"
+             xmlns:fac="clr-namespace:StoryMaker.Inspector.Models.Version1"
+             mc:Ignorable="d" Height="545.876" Width="450.515">
+
+    <UserControl.Resources>
+        <fac:PropertyFactory x:Key="factory"/>
+        <local:InspectorViewModel x:Key="VM" PropertyFactory="{StaticResource factory}"/>
+    </UserControl.Resources>
+    <Grid DataContext="{StaticResource VM}">
+        <ItemsControl x:Name="itemsControl" ItemsSource="{Binding Properties}">
+            <ItemsControl.Resources>
+                <DataTemplate DataType="{x:Type models:IntProperty}">
+                    <views:IntField Field="{Binding}"/>
+                </DataTemplate>
+            </ItemsControl.Resources>
+        </ItemsControl>
+    </Grid>
+</UserControl>
