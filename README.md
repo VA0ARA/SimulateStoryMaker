@@ -47,10 +47,10 @@ Export/Upload Panel: Buttons to convert animations to JSON and send them to the 
 
 Visual Placeholder
 
-You can insert a UI screenshot or mockup here.
+ UI screenshot.
 bussines:
 [DataStructure/6.jpg]
+
+
 Film-link:
 [https://youtube.com/playlist?list=PLHKqhcgMIjlzsXpVFFV5wWazAfdbNrbtF&si=XFUialVfspwNSfL6]
-
-Let me know if you'd like this exported as a PDF, Markdown, or Word document with embedded images or further formatting.
